@@ -1,0 +1,11 @@
+{
+  "name": "ucmercedule-vanilla",
+  "version": "0.1.0",
+  "description": "SPA for semester-planning at University of California, Merced",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karina Antonio",
+  "license": "ISC"
+}
