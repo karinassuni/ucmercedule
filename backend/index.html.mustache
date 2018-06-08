@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>UC Mercedule</title>
+  <meta name="application-name" content="UC Mercedule">
+  <meta name="description" content="Easily plan your semester schedule at the University of California, Merced!">
+  <meta name="author" content="Karina Antonio">
+
+  <link rel="stylesheet" href="index.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  
+  <meta http-equiv="refresh" content="10">
+</head>
+<body>
+  <header>
+    <h1>UCMercedule</h1>
+  </header>
+
+  <nav id="department-menu">
+    <h2>Select departments of interest</h2>
+    <select name="department" required multiple size="8">
+      {{#department}}
+        <option value={{code}}>{{name}}</option>
+      {{/department}}
+    </select>
+  </nav>
+
+  <nav id="course-index">
+    <h2>Select courses of interest</h2>
+    {{#department}}
+      <h3>{{name}}</h3>
+      <ul>
+        {{#course}}
+          <li>{{title}}</li>
+          <li>{{courseNumber}}</li>
+        {{/course}}
+      </ul>
+    {{/department}}
+  </nav>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
