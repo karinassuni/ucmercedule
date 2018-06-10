@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 pystache = "*"
-ucmscraper = "*"
+ucmscraper = "==1.4.1"
 
 [dev-packages]
 pylint = "*"
