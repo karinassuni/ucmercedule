@@ -1,0 +1,14 @@
+<ul class="departments">
+  {{#selectedDepartments}}
+  <li class="department-heading">{{name}}
+    <ul class="courses-list">
+      {{#courses}}
+      <li>
+        <span class="course-id">{{id}}</span>
+        <span class="course-title">{{title}}</span>
+      </li>
+      {{/courses}}
+    </ul>
+  </li>
+  {{/selectedDepartments}}
+</ul>
