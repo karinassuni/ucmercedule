@@ -2,14 +2,6 @@ import itertools
 import json
 import ucmscraper
 
-schedule = ucmscraper.Schedule.fetch_latest()
-
-# sample
-def is_selected(section):
-    return section['departmentCode'] == 'CSE' or section['departmentCode'] == 'ENG' or section['departmentCode'] == 'MATH' or section['departmentCode'] == 'WRI'
-
-sample_sections = [section for section in schedule.sections if is_selected(section)]
-
 # Creating a class only so that we have a hashable (and sortable) "dict"
 # Not a full Course, just a struct of Course values needed by mustache template
 class CourseView:
@@ -36,14 +28,15 @@ class CourseView:
         else:
             return False
 
+schedule = ucmscraper.Schedule.fetch_latest()
 # Selecting only relevant keys to make a course; putting in a Set prevents duplicates!
 course_views = {
     CourseView(section)
-    for section in sample_sections
+    for section in schedule.sections
 }
 
-selected_departments = {
-    'selectedDepartments': [
+courses_by_departments = {
+    'departments': [
         {
             'code': department_code,
             'name': schedule.departments[department_code],
@@ -57,5 +50,5 @@ selected_departments = {
     ]
 }
 
-with open('sample_selected_departments.json', 'w') as f:
-    json.dump(selected_departments, f, sort_keys=True, indent=4)
+with open('courses_by_departments.json', 'w') as f:
+    json.dump(courses_by_departments, f, sort_keys=True, indent=4)
