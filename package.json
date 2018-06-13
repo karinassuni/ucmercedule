@@ -4,7 +4,8 @@
   "description": "SPA for semester-planning at University of California, Merced",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "./node_modules/.bin/gulp"
   },
   "author": "Karina Antonio",
   "license": "ISC",
@@ -15,6 +16,10 @@
   "dependencies": {
     "browser-sync": "^2.24.4",
     "bs-html-injector": "^3.0.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-mustache": "^3.0.1",
+    "gulp-rename": "^1.3.0",
     "mustache": "^2.3.0"
   }
 }

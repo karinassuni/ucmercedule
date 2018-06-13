@@ -1,27 +1,31 @@
-{{! HTML needs a body tag in order for browser-sync to be able to auto-update/inject HTML}}
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+{{> ../head }}
+
 <body>
-<form>
-  <fieldset>
-    <legend>Select courses</legend>
-    <ul class="course-select">
-      {{#departments}}
-      <li class="department-heading">
-        {{name}}
-        <ul class="department-courses">
-          {{#courses}}
-          <li>
-            <label for="{{id}}">
-              <input type="checkbox" name="courses" id="{{id}}">
-              {{id}} — {{title}}
-            </label>
-          </li>
-          {{/courses}}
-        </ul>
-      </li>
-      {{/departments}}
-    </ul>
-  </fieldset>
-</form>
+  <form>
+    <fieldset>
+      <legend>Select courses</legend>
+      <ul class="course-select">
+        {{#departments}}
+        <li class="department-heading">
+          {{name}}
+          <ul class="department-courses">
+            {{#courses}}
+            <li>
+              <label for="{{id}}">
+                <input type="checkbox" name="courses" id="{{id}}">
+                {{id}} — {{title}}
+              </label>
+            </li>
+            {{/courses}}
+          </ul>
+        </li>
+        {{/departments}}
+      </ul>
+    </fieldset>
+  </form>
 </body>
+
 </html>
