@@ -11,5 +11,10 @@
   "devDependencies": {
     "eslint": "^4.14.0",
     "prettier": "^1.9.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.4",
+    "bs-html-injector": "^3.0.3",
+    "mustache": "^2.3.0"
   }
 }

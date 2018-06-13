@@ -1,0 +1,62 @@
+:root {
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font: 400 1rem "Source Sans Pro", Helvetica, sans-serif;  
+}
+
+.course-select {
+  margin-top: -1rem;
+  list-style: none;
+}
+
+.department-heading {
+  font: 400 1rem "Source Sans Pro", Helvetica, sans-serif;  
+  margin-top: 1rem;
+  color: #0f5479;
+  cursor: pointer;
+}
+
+.department-heading:before {
+  font-size: 1rem;
+  content: "►";
+  margin-right: 0.5em;
+}
+
+.department-heading:hover {
+  color: #988556;
+  transition: color 0.1s ease;
+}
+
+.department-heading:hover:before {
+  color: #988556;
+  transition: color 0.1s ease;
+}
+
+.department-heading > label > input {
+
+}
+
+.department-courses {
+  display: none;
+  
+  padding-left: 1rem; 
+  font: 300 1rem "Open Sans", Helvetica, sans-serif;
+  color: #000;
+  background-color: #FFF;  
+  list-style: none;
+}
+
+/* .department-courses > li:hover {
+  background-color: #988556;
+  color: #FFF;
+  transition: background-color 0.2s linear;
+} */
+
+label {
+  cursor: pointer;
+}

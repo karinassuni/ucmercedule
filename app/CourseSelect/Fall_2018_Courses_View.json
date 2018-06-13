@@ -1,0 +1,2112 @@
+{
+    "departments": [
+        {
+            "code": "ANTH",
+            "courses": [
+                {
+                    "id": "ANTH-001",
+                    "title": "Sociocultural Anthropology"
+                },
+                {
+                    "id": "ANTH-005",
+                    "title": "Biological Anthropology"
+                },
+                {
+                    "id": "ANTH-100",
+                    "title": "History of Anthropology"
+                },
+                {
+                    "id": "ANTH-112",
+                    "title": "Political Anthropology"
+                },
+                {
+                    "id": "ANTH-126",
+                    "title": "Anth Gender"
+                },
+                {
+                    "id": "ANTH-148",
+                    "title": "Rituals in Ancient Times"
+                },
+                {
+                    "id": "ANTH-150",
+                    "title": "Race and Human Variation"
+                },
+                {
+                    "id": "ANTH-152",
+                    "title": "Dying, Death, and Dead Persons"
+                },
+                {
+                    "id": "ANTH-174",
+                    "title": "Lithic Artifact Analysis"
+                },
+                {
+                    "id": "ANTH-190",
+                    "title": "Archeology of Food"
+                }
+            ],
+            "name": "Anthropology"
+        },
+        {
+            "code": "BEST",
+            "courses": [
+                {
+                    "id": "BEST-201",
+                    "title": "Special Topics: Materials"
+                },
+                {
+                    "id": "BEST-204",
+                    "title": "Kinetics and Processing"
+                },
+                {
+                    "id": "BEST-220",
+                    "title": "Intro to Biomedical Imaging"
+                },
+                {
+                    "id": "BEST-224",
+                    "title": "Polymeric Materials"
+                },
+                {
+                    "id": "BEST-230",
+                    "title": "Computation Model Bio Sci"
+                },
+                {
+                    "id": "BEST-231",
+                    "title": "Imaging Spectroscopy Bio Sci"
+                },
+                {
+                    "id": "BEST-291",
+                    "title": "Research Seminar"
+                },
+                {
+                    "id": "BEST-292",
+                    "title": "Group Meeting"
+                },
+                {
+                    "id": "BEST-293",
+                    "title": "Journal Club"
+                },
+                {
+                    "id": "BEST-294",
+                    "title": "Responsible Conduct Research"
+                },
+                {
+                    "id": "BEST-299",
+                    "title": "Directed Independent Study"
+                }
+            ],
+            "name": "Bio Engin Small Scale Tech"
+        },
+        {
+            "code": "BIO",
+            "courses": [
+                {
+                    "id": "BIO-001",
+                    "title": "Contemporary Biology"
+                },
+                {
+                    "id": "BIO-001L",
+                    "title": "Contemporary Biology Lab"
+                },
+                {
+                    "id": "BIO-002",
+                    "title": "Introduction Molecular Biology"
+                },
+                {
+                    "id": "BIO-002L",
+                    "title": "Molecular Biology Lab"
+                },
+                {
+                    "id": "BIO-003",
+                    "title": "Molec Basis of Heal and Disea"
+                },
+                {
+                    "id": "BIO-005",
+                    "title": "Biology Today"
+                },
+                {
+                    "id": "BIO-018",
+                    "title": "Stat Sci Data Analysis"
+                },
+                {
+                    "id": "BIO-043",
+                    "title": "Biodiversity and Conservation"
+                },
+                {
+                    "id": "BIO-047",
+                    "title": "Astrobiology"
+                },
+                {
+                    "id": "BIO-060",
+                    "title": "Nutrition"
+                },
+                {
+                    "id": "BIO-101",
+                    "title": "Biochemistry I"
+                },
+                {
+                    "id": "BIO-104",
+                    "title": "Biophysics"
+                },
+                {
+                    "id": "BIO-110",
+                    "title": "The Cell"
+                },
+                {
+                    "id": "BIO-111",
+                    "title": "Cells, Tissues and Organs"
+                },
+                {
+                    "id": "BIO-113",
+                    "title": "Sustainable Anthropocene"
+                },
+                {
+                    "id": "BIO-120",
+                    "title": "General Microbiology"
+                },
+                {
+                    "id": "BIO-120L",
+                    "title": "General Micro Lab"
+                },
+                {
+                    "id": "BIO-121",
+                    "title": "Ecological Microbiology"
+                },
+                {
+                    "id": "BIO-124",
+                    "title": "Microbial Evolution"
+                },
+                {
+                    "id": "BIO-127",
+                    "title": "General Virology"
+                },
+                {
+                    "id": "BIO-129",
+                    "title": "Paleoecology"
+                },
+                {
+                    "id": "BIO-140",
+                    "title": "Genetics"
+                },
+                {
+                    "id": "BIO-141",
+                    "title": "Evolution"
+                },
+                {
+                    "id": "BIO-148",
+                    "title": "Fundamentals of Ecology"
+                },
+                {
+                    "id": "BIO-151",
+                    "title": "Molecular Immunology"
+                },
+                {
+                    "id": "BIO-151L",
+                    "title": "Molec Immunology Lab"
+                },
+                {
+                    "id": "BIO-153",
+                    "title": "Evolution and Development"
+                },
+                {
+                    "id": "BIO-161",
+                    "title": "Human Physiology"
+                },
+                {
+                    "id": "BIO-170",
+                    "title": "Neurobiology"
+                },
+                {
+                    "id": "BIO-170L",
+                    "title": "Neurobiology Laboratory"
+                },
+                {
+                    "id": "BIO-180",
+                    "title": "Math Modeling for Biology"
+                }
+            ],
+            "name": "Biological Sciences"
+        },
+        {
+            "code": "BIOE",
+            "courses": [
+                {
+                    "id": "BIOE-021",
+                    "title": "Computing for Bioengineers"
+                },
+                {
+                    "id": "BIOE-065",
+                    "title": "Biocircuits Theory"
+                },
+                {
+                    "id": "BIOE-104",
+                    "title": "Biotransport Phenomena"
+                },
+                {
+                    "id": "BIOE-124",
+                    "title": "Intro Biomed Imag"
+                },
+                {
+                    "id": "BIOE-130",
+                    "title": "Biothermodynamics"
+                },
+                {
+                    "id": "BIOE-140",
+                    "title": "Biomolecular Engineering"
+                },
+                {
+                    "id": "BIOE-166",
+                    "title": "Bioelectronics"
+                }
+            ],
+            "name": "Bioengineering"
+        },
+        {
+            "code": "CCST",
+            "courses": [
+                {
+                    "id": "CCST-060",
+                    "title": "Intro to Chicano/a Culture"
+                }
+            ],
+            "name": "Chicano Chicana Studies"
+        },
+        {
+            "code": "CHEM",
+            "courses": [
+                {
+                    "id": "CHEM-001",
+                    "title": "Preparatory Chemistry"
+                },
+                {
+                    "id": "CHEM-002",
+                    "title": "General Chemistry I"
+                },
+                {
+                    "id": "CHEM-002H",
+                    "title": "Honors Gen Chem I"
+                },
+                {
+                    "id": "CHEM-008",
+                    "title": "Prin of Organic Chem"
+                },
+                {
+                    "id": "CHEM-008H",
+                    "title": "Honors Organic Chemistry"
+                },
+                {
+                    "id": "CHEM-008HL",
+                    "title": "Hon Prin of Org Chem Lab"
+                },
+                {
+                    "id": "CHEM-008L",
+                    "title": "Prin of Org Chem Lab"
+                },
+                {
+                    "id": "CHEM-010",
+                    "title": "General Chemistry II"
+                },
+                {
+                    "id": "CHEM-100",
+                    "title": "Organic Synth and Mechanism"
+                },
+                {
+                    "id": "CHEM-100L",
+                    "title": "Organic Chemistry Laboratory"
+                },
+                {
+                    "id": "CHEM-101L",
+                    "title": "Advanced Synthetic Laboratory"
+                },
+                {
+                    "id": "CHEM-111",
+                    "title": "Biochemistry I"
+                },
+                {
+                    "id": "CHEM-112",
+                    "title": "Quantum Chem and Spect"
+                },
+                {
+                    "id": "CHEM-115",
+                    "title": "Instrumental Analysis"
+                },
+                {
+                    "id": "CHEM-120",
+                    "title": "Inorganic Chemistry"
+                },
+                {
+                    "id": "CHEM-155",
+                    "title": "Instrumental Lab"
+                },
+                {
+                    "id": "CHEM-200",
+                    "title": "Adv Organic Synthesis"
+                },
+                {
+                    "id": "CHEM-205",
+                    "title": "Principles of NMR Spectroscopy"
+                },
+                {
+                    "id": "CHEM-210",
+                    "title": "Organometallic Chemistry"
+                },
+                {
+                    "id": "CHEM-212",
+                    "title": "Molec & Solid State Quant Chem"
+                },
+                {
+                    "id": "CHEM-214",
+                    "title": "Statistical Thermodynamics"
+                },
+                {
+                    "id": "CHEM-290",
+                    "title": "Grad Professional Development"
+                },
+                {
+                    "id": "CHEM-291",
+                    "title": "Physics and Chemistry Seminar"
+                },
+                {
+                    "id": "CHEM-298",
+                    "title": "Directed Group Study"
+                }
+            ],
+            "name": "Chemistry"
+        },
+        {
+            "code": "CHN",
+            "courses": [
+                {
+                    "id": "CHN-001",
+                    "title": "Elementary Chinese I"
+                },
+                {
+                    "id": "CHN-002",
+                    "title": "Elementary Chinese II"
+                }
+            ],
+            "name": "Chinese"
+        },
+        {
+            "code": "COGS",
+            "courses": [
+                {
+                    "id": "COGS-001",
+                    "title": "Intro to Cognitive Science"
+                },
+                {
+                    "id": "COGS-101",
+                    "title": "Mind, Brain, & Computation"
+                },
+                {
+                    "id": "COGS-103",
+                    "title": "Introduction to Neural Network"
+                },
+                {
+                    "id": "COGS-125",
+                    "title": "Intro to Artificial Intell"
+                },
+                {
+                    "id": "COGS-140",
+                    "title": "Perception and Action"
+                },
+                {
+                    "id": "COGS-250",
+                    "title": "Cognitive Science Grad Seminar"
+                },
+                {
+                    "id": "COGS-269",
+                    "title": "Equilibrium Selection"
+                },
+                {
+                    "id": "COGS-290",
+                    "title": "Grad Professional Development"
+                }
+            ],
+            "name": "Cognitive Science"
+        },
+        {
+            "code": "CRES",
+            "courses": [
+                {
+                    "id": "CRES-001",
+                    "title": "Intro Crit Race & Ethn Studies"
+                },
+                {
+                    "id": "CRES-110",
+                    "title": "Methods in CRES"
+                },
+                {
+                    "id": "CRES-150",
+                    "title": "Asians in the Americas"
+                }
+            ],
+            "name": "Critical Race & Ethnic Studies"
+        },
+        {
+            "code": "CRS",
+            "courses": [
+                {
+                    "id": "CRS-010",
+                    "title": "Community Engaged Research"
+                }
+            ],
+            "name": "Community Research and Service"
+        },
+        {
+            "code": "CSE",
+            "courses": [
+                {
+                    "id": "CSE-005",
+                    "title": "Intro Computer Applications"
+                },
+                {
+                    "id": "CSE-015",
+                    "title": "Discrete Mathematics"
+                },
+                {
+                    "id": "CSE-020",
+                    "title": "Introduction to Computing I"
+                },
+                {
+                    "id": "CSE-021",
+                    "title": "Introduction to Computing II"
+                },
+                {
+                    "id": "CSE-030",
+                    "title": "Data Structures"
+                },
+                {
+                    "id": "CSE-031",
+                    "title": "Computer Organization"
+                },
+                {
+                    "id": "CSE-100",
+                    "title": "Algorithm Design and Analysis"
+                },
+                {
+                    "id": "CSE-107",
+                    "title": "Intro to Digital Image Process"
+                },
+                {
+                    "id": "CSE-111",
+                    "title": "Database Systems"
+                },
+                {
+                    "id": "CSE-120",
+                    "title": "Software Engineering"
+                },
+                {
+                    "id": "CSE-140",
+                    "title": "Computer Architecture"
+                },
+                {
+                    "id": "CSE-150",
+                    "title": "Operating Systems"
+                },
+                {
+                    "id": "CSE-155",
+                    "title": "Intro Human-Comp Interaction"
+                },
+                {
+                    "id": "CSE-160",
+                    "title": "Computer Networks"
+                },
+                {
+                    "id": "CSE-165",
+                    "title": "Intro to Object Orient Program"
+                },
+                {
+                    "id": "CSE-175",
+                    "title": "Intro to Artificial Intell"
+                }
+            ],
+            "name": "Computer Science & Engineering"
+        },
+        {
+            "code": "ECON",
+            "courses": [
+                {
+                    "id": "ECON-001",
+                    "title": "Introduction to Economics"
+                },
+                {
+                    "id": "ECON-005",
+                    "title": "Intro to Business & Finance"
+                },
+                {
+                    "id": "ECON-006A",
+                    "title": "Financial Accounting I"
+                },
+                {
+                    "id": "ECON-006B",
+                    "title": "Financial Accounting II"
+                },
+                {
+                    "id": "ECON-007",
+                    "title": "Managerial Accounting"
+                },
+                {
+                    "id": "ECON-010",
+                    "title": "Statistical Inference"
+                },
+                {
+                    "id": "ECON-100",
+                    "title": "Interm Microeconomic Theory"
+                },
+                {
+                    "id": "ECON-101",
+                    "title": "Interm Macroecon Theory"
+                },
+                {
+                    "id": "ECON-105",
+                    "title": "Corporate Finance"
+                },
+                {
+                    "id": "ECON-108",
+                    "title": "Marketing & Consumer Behavior"
+                },
+                {
+                    "id": "ECON-110",
+                    "title": "Econometrics"
+                },
+                {
+                    "id": "ECON-116",
+                    "title": "Organizational Strategy"
+                },
+                {
+                    "id": "ECON-126",
+                    "title": "Econ of Innov and Entrepren"
+                },
+                {
+                    "id": "ECON-131",
+                    "title": "History of Economic Thought"
+                },
+                {
+                    "id": "ECON-142",
+                    "title": "Econ of Gender and Pov"
+                },
+                {
+                    "id": "ECON-149",
+                    "title": "Economics of Sports"
+                },
+                {
+                    "id": "ECON-151",
+                    "title": "Econ of Govt and Business"
+                },
+                {
+                    "id": "ECON-190",
+                    "title": "Behavioral Economics"
+                }
+            ],
+            "name": "Economics"
+        },
+        {
+            "code": "EECS",
+            "courses": [
+                {
+                    "id": "EECS-260",
+                    "title": "Optimization"
+                },
+                {
+                    "id": "EECS-262",
+                    "title": "Embedded Sensor Systems"
+                },
+                {
+                    "id": "EECS-272",
+                    "title": "Program Verif & Model Checking"
+                },
+                {
+                    "id": "EECS-286",
+                    "title": "Adv Top in Computer Vision"
+                },
+                {
+                    "id": "EECS-287",
+                    "title": "Computer Animation/Simulation"
+                },
+                {
+                    "id": "EECS-288",
+                    "title": "Adv Topic High Perf Computing"
+                },
+                {
+                    "id": "EECS-289",
+                    "title": "Grad Professional Development"
+                },
+                {
+                    "id": "EECS-290",
+                    "title": "EECS Seminar"
+                }
+            ],
+            "name": "Elect. Engr. & Comp. Sci."
+        },
+        {
+            "code": "ENG",
+            "courses": [
+                {
+                    "id": "ENG-010",
+                    "title": "Foundations of Lit Studies"
+                },
+                {
+                    "id": "ENG-032",
+                    "title": "Intro to Chicano/a Culture"
+                },
+                {
+                    "id": "ENG-033",
+                    "title": "Literature and Sexuality"
+                },
+                {
+                    "id": "ENG-056",
+                    "title": "Introduction to World Drama"
+                },
+                {
+                    "id": "ENG-057",
+                    "title": "Introduction to Poetry"
+                },
+                {
+                    "id": "ENG-101",
+                    "title": "Medieval & Renaissance Lit"
+                },
+                {
+                    "id": "ENG-113",
+                    "title": "U.S. Latino/a Literature"
+                },
+                {
+                    "id": "ENG-129",
+                    "title": "Asian American Literature"
+                },
+                {
+                    "id": "ENG-138",
+                    "title": "Gothic Literature"
+                },
+                {
+                    "id": "ENG-156",
+                    "title": "Oscar Wilde"
+                },
+                {
+                    "id": "ENG-190",
+                    "title": "Senior Thesis"
+                }
+            ],
+            "name": "English"
+        },
+        {
+            "code": "ENGR",
+            "courses": [
+                {
+                    "id": "ENGR-045",
+                    "title": "Introduction to Materials"
+                },
+                {
+                    "id": "ENGR-057",
+                    "title": "Statics and Dynamics"
+                },
+                {
+                    "id": "ENGR-065",
+                    "title": "Circuit Theory"
+                },
+                {
+                    "id": "ENGR-097",
+                    "title": "Engr Service Learning"
+                },
+                {
+                    "id": "ENGR-120",
+                    "title": "Fluid Mechanics"
+                },
+                {
+                    "id": "ENGR-130",
+                    "title": "Thermodynamics"
+                },
+                {
+                    "id": "ENGR-135",
+                    "title": "Heat Transfer"
+                },
+                {
+                    "id": "ENGR-140",
+                    "title": "Intro to Object Orient Program"
+                },
+                {
+                    "id": "ENGR-151",
+                    "title": "Strength of Materials"
+                },
+                {
+                    "id": "ENGR-155",
+                    "title": "Engineering Economic Analysis"
+                },
+                {
+                    "id": "ENGR-180",
+                    "title": "Spatial Analysis and Modeling"
+                },
+                {
+                    "id": "ENGR-190",
+                    "title": "Capstone Design"
+                },
+                {
+                    "id": "ENGR-191",
+                    "title": "Professional Seminar"
+                },
+                {
+                    "id": "ENGR-197",
+                    "title": "Engr Service Learning"
+                }
+            ],
+            "name": "Engineering"
+        },
+        {
+            "code": "ENVE",
+            "courses": [
+                {
+                    "id": "ENVE-010",
+                    "title": "Environment in Crisis"
+                },
+                {
+                    "id": "ENVE-020",
+                    "title": "Intro to Environ Sci and Tech"
+                },
+                {
+                    "id": "ENVE-110",
+                    "title": "Hydrology and Climate"
+                },
+                {
+                    "id": "ENVE-130",
+                    "title": "Meteorology and Air Pollution"
+                },
+                {
+                    "id": "ENVE-152",
+                    "title": "Remote Sensing of Environment"
+                },
+                {
+                    "id": "ENVE-183",
+                    "title": "Field Meth in Subsurface Hydro"
+                },
+                {
+                    "id": "ENVE-184",
+                    "title": "Field Meth in Environ Chem"
+                }
+            ],
+            "name": "Environmental Engineering"
+        },
+        {
+            "code": "ES",
+            "courses": [
+                {
+                    "id": "ES-205",
+                    "title": "Biogeochemistry"
+                },
+                {
+                    "id": "ES-218",
+                    "title": "Global Change Biology"
+                },
+                {
+                    "id": "ES-229",
+                    "title": "Paleoecology"
+                },
+                {
+                    "id": "ES-230",
+                    "title": "Ecological Genetics"
+                },
+                {
+                    "id": "ES-234",
+                    "title": "Air Pollution and Resources"
+                },
+                {
+                    "id": "ES-241",
+                    "title": "Natural Resource Management"
+                },
+                {
+                    "id": "ES-245",
+                    "title": "Biogeography"
+                },
+                {
+                    "id": "ES-252",
+                    "title": "Remote Sensing of the Environ"
+                },
+                {
+                    "id": "ES-290",
+                    "title": "Grad Professional Development"
+                },
+                {
+                    "id": "ES-291",
+                    "title": "Environmental Systems Seminar"
+                },
+                {
+                    "id": "ES-292",
+                    "title": "Adv Remote Sensing: Progrmming"
+                }
+            ],
+            "name": "Environmental Systems (GR)"
+        },
+        {
+            "code": "ESS",
+            "courses": [
+                {
+                    "id": "ESS-001",
+                    "title": "Intro to Earth Sys Sci"
+                },
+                {
+                    "id": "ESS-002",
+                    "title": "Sustainability Science"
+                },
+                {
+                    "id": "ESS-020",
+                    "title": "Fundamentals of Geology"
+                },
+                {
+                    "id": "ESS-047",
+                    "title": "Astrobiology"
+                },
+                {
+                    "id": "ESS-100",
+                    "title": "Enviro Chem in Nat Sci"
+                },
+                {
+                    "id": "ESS-110",
+                    "title": "Hydrology and Climate"
+                },
+                {
+                    "id": "ESS-113",
+                    "title": "Sustainable Anthropocene"
+                },
+                {
+                    "id": "ESS-120",
+                    "title": "Ecological Microbiology"
+                },
+                {
+                    "id": "ESS-129",
+                    "title": "Paleoecology"
+                },
+                {
+                    "id": "ESS-148",
+                    "title": "Fundamentals of Ecology"
+                },
+                {
+                    "id": "ESS-179",
+                    "title": "Critical Zone Science"
+                },
+                {
+                    "id": "ESS-190",
+                    "title": "Undergraduate Seminar"
+                }
+            ],
+            "name": "Earth Systems Science"
+        },
+        {
+            "code": "FRE",
+            "courses": [
+                {
+                    "id": "FRE-001",
+                    "title": "Elementary French I"
+                },
+                {
+                    "id": "FRE-002",
+                    "title": "Elementary French II"
+                }
+            ],
+            "name": "French"
+        },
+        {
+            "code": "GASP",
+            "courses": [
+                {
+                    "id": "GASP-002",
+                    "title": "Introduction to Music Studies"
+                },
+                {
+                    "id": "GASP-003",
+                    "title": "Introduction to Visual Culture"
+                },
+                {
+                    "id": "GASP-006",
+                    "title": "Global Art History"
+                },
+                {
+                    "id": "GASP-007",
+                    "title": "Music in Society"
+                },
+                {
+                    "id": "GASP-010",
+                    "title": "Drawing I"
+                },
+                {
+                    "id": "GASP-011",
+                    "title": "Painting I"
+                },
+                {
+                    "id": "GASP-012A",
+                    "title": "Sculpture I"
+                },
+                {
+                    "id": "GASP-014",
+                    "title": "Photography I"
+                },
+                {
+                    "id": "GASP-015A",
+                    "title": "Multimedia I"
+                },
+                {
+                    "id": "GASP-020",
+                    "title": "Video I"
+                },
+                {
+                    "id": "GASP-030A",
+                    "title": "Latin Music Ensemble"
+                },
+                {
+                    "id": "GASP-030C",
+                    "title": "Swing Band"
+                },
+                {
+                    "id": "GASP-031A",
+                    "title": "Latin Dance Ensemble"
+                },
+                {
+                    "id": "GASP-031C",
+                    "title": "Swing Dance Ensemble"
+                },
+                {
+                    "id": "GASP-034A",
+                    "title": "Songwriting"
+                },
+                {
+                    "id": "GASP-036A",
+                    "title": "Making Electronic Music"
+                },
+                {
+                    "id": "GASP-041A",
+                    "title": "Performative Storytelling"
+                },
+                {
+                    "id": "GASP-055C",
+                    "title": "Hist of European Art & Arch"
+                },
+                {
+                    "id": "GASP-056",
+                    "title": "Contemporary Art"
+                },
+                {
+                    "id": "GASP-076A",
+                    "title": "Social Dance"
+                },
+                {
+                    "id": "GASP-079B",
+                    "title": "Topics in Dance"
+                },
+                {
+                    "id": "GASP-109",
+                    "title": "Image and Sound"
+                },
+                {
+                    "id": "GASP-120",
+                    "title": "Video II"
+                },
+                {
+                    "id": "GASP-122",
+                    "title": "Conceptual Art"
+                },
+                {
+                    "id": "GASP-144A",
+                    "title": "Art for Social Change"
+                },
+                {
+                    "id": "GASP-157",
+                    "title": "Critical Photography"
+                },
+                {
+                    "id": "GASP-158B",
+                    "title": "Women & Art in Islamic Culture"
+                },
+                {
+                    "id": "GASP-160",
+                    "title": "Film Theory and Criticism"
+                },
+                {
+                    "id": "GASP-190",
+                    "title": "Theories of Expressive Culture"
+                }
+            ],
+            "name": "Global Arts Studies Program"
+        },
+        {
+            "code": "HIST",
+            "courses": [
+                {
+                    "id": "HIST-008",
+                    "title": "African Civilization"
+                },
+                {
+                    "id": "HIST-035",
+                    "title": "Making of the Atlantic World"
+                },
+                {
+                    "id": "HIST-070",
+                    "title": "Middle East to 1500"
+                },
+                {
+                    "id": "HIST-100",
+                    "title": "The Historian's Craft"
+                },
+                {
+                    "id": "HIST-115",
+                    "title": "Modern Africa"
+                },
+                {
+                    "id": "HIST-133",
+                    "title": "Life & Death in the Old West"
+                },
+                {
+                    "id": "HIST-170R",
+                    "title": "Law and Society Research"
+                }
+            ],
+            "name": "History"
+        },
+        {
+            "code": "IH",
+            "courses": [
+                {
+                    "id": "IH-201A",
+                    "title": "Theories and Methods A"
+                },
+                {
+                    "id": "IH-203",
+                    "title": "Pedagogy"
+                },
+                {
+                    "id": "IH-206",
+                    "title": "Methods and Research"
+                },
+                {
+                    "id": "IH-210",
+                    "title": "Readings in IH: Past Worlds"
+                },
+                {
+                    "id": "IH-220",
+                    "title": "Readings in IH: Social/Spatial"
+                }
+            ],
+            "name": "Interdisciplinary Humanities"
+        },
+        {
+            "code": "JPN",
+            "courses": [
+                {
+                    "id": "JPN-001",
+                    "title": "Elementary Japanese I"
+                },
+                {
+                    "id": "JPN-003",
+                    "title": "Intermediate Japanese I"
+                }
+            ],
+            "name": "Japanese"
+        },
+        {
+            "code": "MATH",
+            "courses": [
+                {
+                    "id": "MATH-005",
+                    "title": "Preparatory Calculus"
+                },
+                {
+                    "id": "MATH-011",
+                    "title": "Calculus I"
+                },
+                {
+                    "id": "MATH-012",
+                    "title": "Calculus II"
+                },
+                {
+                    "id": "MATH-015",
+                    "title": "Intro. Sci. Data Analysis"
+                },
+                {
+                    "id": "MATH-021",
+                    "title": "Calc I Phys Sciences & Eng"
+                },
+                {
+                    "id": "MATH-022",
+                    "title": "Calc II Phys Sciences & Eng"
+                },
+                {
+                    "id": "MATH-023",
+                    "title": "Vector Calculus"
+                },
+                {
+                    "id": "MATH-024",
+                    "title": "Lin Alg & Diff Eqs"
+                },
+                {
+                    "id": "MATH-032",
+                    "title": "Probability and Statistics"
+                },
+                {
+                    "id": "MATH-122",
+                    "title": "Complex Variables"
+                },
+                {
+                    "id": "MATH-125",
+                    "title": "Intermediate Diff Eqs"
+                },
+                {
+                    "id": "MATH-130",
+                    "title": "Numerical Analysis"
+                },
+                {
+                    "id": "MATH-131",
+                    "title": "Numerical Methods Sci & Engr"
+                },
+                {
+                    "id": "MATH-141",
+                    "title": "Linear Analysis I"
+                },
+                {
+                    "id": "MATH-180",
+                    "title": "Modern Applied Statistics"
+                },
+                {
+                    "id": "MATH-201",
+                    "title": "Teaching and Learning"
+                },
+                {
+                    "id": "MATH-221",
+                    "title": "Partial-Differential Equat I"
+                },
+                {
+                    "id": "MATH-231",
+                    "title": "Numerical Analysis I"
+                },
+                {
+                    "id": "MATH-233",
+                    "title": "Scientific Computing"
+                },
+                {
+                    "id": "MATH-290",
+                    "title": "Grad Professional Development"
+                },
+                {
+                    "id": "MATH-291",
+                    "title": "Applied Mathematics Seminar"
+                },
+                {
+                    "id": "MATH-292",
+                    "title": "Introduction to Fluid Dynamics"
+                }
+            ],
+            "name": "Mathematics"
+        },
+        {
+            "code": "ME",
+            "courses": [
+                {
+                    "id": "ME-021",
+                    "title": "Engineering Computing"
+                },
+                {
+                    "id": "ME-120",
+                    "title": "Component Design"
+                },
+                {
+                    "id": "ME-137",
+                    "title": "Computer Aided Engineering"
+                },
+                {
+                    "id": "ME-138",
+                    "title": "Intro to Comp Fluid Dynamics"
+                },
+                {
+                    "id": "ME-140",
+                    "title": "Vibration and Control"
+                },
+                {
+                    "id": "ME-143",
+                    "title": "Unmanned Aircraft Systems"
+                },
+                {
+                    "id": "ME-190",
+                    "title": "Tribology"
+                },
+                {
+                    "id": "ME-211",
+                    "title": "Nonlinear Controls"
+                },
+                {
+                    "id": "ME-232",
+                    "title": "Convective Heat and Mass Trans"
+                },
+                {
+                    "id": "ME-261",
+                    "title": "Energy Storage"
+                },
+                {
+                    "id": "ME-290",
+                    "title": "Grad Professional Development"
+                },
+                {
+                    "id": "ME-291",
+                    "title": "ME Seminar Series"
+                }
+            ],
+            "name": "Mechanical Engineering"
+        },
+        {
+            "code": "MGMT",
+            "courses": [
+                {
+                    "id": "MGMT-135",
+                    "title": "Business Law"
+                },
+                {
+                    "id": "MGMT-191",
+                    "title": "Leadership Theory"
+                }
+            ],
+            "name": "Management"
+        },
+        {
+            "code": "MIST",
+            "courses": [
+                {
+                    "id": "MIST-201",
+                    "title": "Leadership and Organizations"
+                },
+                {
+                    "id": "MIST-202",
+                    "title": "Managerial Finance & Acctg"
+                },
+                {
+                    "id": "MIST-203",
+                    "title": "Quantitative Tools for Mgmt"
+                },
+                {
+                    "id": "MIST-204",
+                    "title": "Spatial Analytics"
+                }
+            ],
+            "name": "Mgmt of Innov, Sust, and Tech"
+        },
+        {
+            "code": "MSE",
+            "courses": [
+                {
+                    "id": "MSE-109",
+                    "title": "Materials Thermodynamics"
+                },
+                {
+                    "id": "MSE-111",
+                    "title": "Kinetics and Processing"
+                },
+                {
+                    "id": "MSE-114",
+                    "title": "Polymeric Materials"
+                },
+                {
+                    "id": "MSE-118",
+                    "title": "Intro Nanotech and Nanoscience"
+                }
+            ],
+            "name": "Materials Science & Engr"
+        },
+        {
+            "code": "NSED",
+            "courses": [
+                {
+                    "id": "NSED-023",
+                    "title": "Intro Teach Sci ES"
+                },
+                {
+                    "id": "NSED-024",
+                    "title": "Fldwk: Intro Teach Sci EL"
+                },
+                {
+                    "id": "NSED-033",
+                    "title": "Intro Teach Math ES"
+                },
+                {
+                    "id": "NSED-034",
+                    "title": "Fldwk: Intro Teach Math EL"
+                },
+                {
+                    "id": "NSED-063",
+                    "title": "Intro Teach Sci HS"
+                },
+                {
+                    "id": "NSED-064",
+                    "title": "Fldwk: Intro Teach Sci HS"
+                },
+                {
+                    "id": "NSED-073",
+                    "title": "Intro Teach Math HS"
+                },
+                {
+                    "id": "NSED-074",
+                    "title": "Fieldwork: Intro Teach Math HS"
+                },
+                {
+                    "id": "NSED-100",
+                    "title": "Project Based Instruction"
+                },
+                {
+                    "id": "NSED-120",
+                    "title": "Classroom Interactions"
+                },
+                {
+                    "id": "NSED-130",
+                    "title": "Technology in Education"
+                },
+                {
+                    "id": "NSED-174",
+                    "title": "Issues in Teaching w/Fldwk"
+                },
+                {
+                    "id": "NSED-184",
+                    "title": "Apprentice Teaching Fieldwork"
+                }
+            ],
+            "name": "Natural Sciences Education"
+        },
+        {
+            "code": "NSUS",
+            "courses": [
+                {
+                    "id": "NSUS-010",
+                    "title": "Success in NatSci Preparatory"
+                },
+                {
+                    "id": "NSUS-020",
+                    "title": "Success in NatSci Excellence"
+                }
+            ],
+            "name": "Nat Sciences Undergrad Studies"
+        },
+        {
+            "code": "PH",
+            "courses": [
+                {
+                    "id": "PH-001",
+                    "title": "Introduction to Public Health"
+                },
+                {
+                    "id": "PH-005",
+                    "title": "Global Health"
+                },
+                {
+                    "id": "PH-100",
+                    "title": "Introduction to Epidemiology"
+                },
+                {
+                    "id": "PH-102",
+                    "title": "Health Promotion"
+                },
+                {
+                    "id": "PH-103",
+                    "title": "Health Communication"
+                },
+                {
+                    "id": "PH-105",
+                    "title": "Intro to US Health Care"
+                },
+                {
+                    "id": "PH-110",
+                    "title": "Environmental Health"
+                },
+                {
+                    "id": "PH-112",
+                    "title": "Research Methods Public Health"
+                },
+                {
+                    "id": "PH-135",
+                    "title": "Public Health Genetics"
+                },
+                {
+                    "id": "PH-181",
+                    "title": "Public Health Research"
+                },
+                {
+                    "id": "PH-201",
+                    "title": "Foundations of Public Health"
+                },
+                {
+                    "id": "PH-203",
+                    "title": "Research Methods"
+                },
+                {
+                    "id": "PH-208A",
+                    "title": "Professional Skills A"
+                },
+                {
+                    "id": "PH-210",
+                    "title": "Intro Public Health Analysis"
+                }
+            ],
+            "name": "Public Health"
+        },
+        {
+            "code": "PHIL",
+            "courses": [
+                {
+                    "id": "PHIL-001",
+                    "title": "Introduction to Philosophy"
+                },
+                {
+                    "id": "PHIL-002",
+                    "title": "Introduction to Ethics"
+                },
+                {
+                    "id": "PHIL-003",
+                    "title": "Contemporary Moral Problems"
+                },
+                {
+                    "id": "PHIL-005",
+                    "title": "Introduction to Logic"
+                },
+                {
+                    "id": "PHIL-102",
+                    "title": "Epistemology"
+                },
+                {
+                    "id": "PHIL-103",
+                    "title": "Philosophy of Mind"
+                },
+                {
+                    "id": "PHIL-107",
+                    "title": "Philosophy of Religion"
+                },
+                {
+                    "id": "PHIL-157",
+                    "title": "Love and Friendship"
+                },
+                {
+                    "id": "PHIL-170",
+                    "title": "Philos, Politics & Economics"
+                }
+            ],
+            "name": "Philosophy"
+        },
+        {
+            "code": "PHYS",
+            "courses": [
+                {
+                    "id": "PHYS-008",
+                    "title": "Introductory Physics I"
+                },
+                {
+                    "id": "PHYS-008H",
+                    "title": "Honors Physics I"
+                },
+                {
+                    "id": "PHYS-009",
+                    "title": "Introductory Physics II"
+                },
+                {
+                    "id": "PHYS-010",
+                    "title": "Introductory Physics III"
+                },
+                {
+                    "id": "PHYS-018",
+                    "title": "Physics I - Bio"
+                },
+                {
+                    "id": "PHYS-019",
+                    "title": "Physics II -- Bio"
+                },
+                {
+                    "id": "PHYS-104",
+                    "title": "Biophysics"
+                },
+                {
+                    "id": "PHYS-108",
+                    "title": "Thermal Physics Core"
+                },
+                {
+                    "id": "PHYS-110",
+                    "title": "Electrodynamics Core"
+                },
+                {
+                    "id": "PHYS-137",
+                    "title": "Quantum Mechanics Core"
+                },
+                {
+                    "id": "PHYS-141",
+                    "title": "Condensed Matter Physics"
+                },
+                {
+                    "id": "PHYS-196",
+                    "title": "Undergraduate Thesis"
+                },
+                {
+                    "id": "PHYS-204",
+                    "title": "Biophysics"
+                },
+                {
+                    "id": "PHYS-205",
+                    "title": "Classical Mechanics"
+                },
+                {
+                    "id": "PHYS-210",
+                    "title": "Electrodynamics I"
+                },
+                {
+                    "id": "PHYS-230",
+                    "title": "Computation Model Bio Sci"
+                },
+                {
+                    "id": "PHYS-231",
+                    "title": "Imaging Spectroscopy Bio Sci"
+                },
+                {
+                    "id": "PHYS-241",
+                    "title": "Condensed Matter Physics"
+                },
+                {
+                    "id": "PHYS-242",
+                    "title": "Advanced Condensed Matter"
+                },
+                {
+                    "id": "PHYS-251",
+                    "title": "Intro to Graduate Research"
+                },
+                {
+                    "id": "PHYS-290",
+                    "title": "Grad Professional Development"
+                },
+                {
+                    "id": "PHYS-293",
+                    "title": "Physics Colloquium"
+                }
+            ],
+            "name": "Physics"
+        },
+        {
+            "code": "POLI",
+            "courses": [
+                {
+                    "id": "POLI-001",
+                    "title": "Intro to American Politics"
+                },
+                {
+                    "id": "POLI-003",
+                    "title": "Intro to Comparative Politics"
+                },
+                {
+                    "id": "POLI-005",
+                    "title": "Intro to International Relatns"
+                },
+                {
+                    "id": "POLI-010",
+                    "title": "Understanding Poli Controversy"
+                },
+                {
+                    "id": "POLI-100",
+                    "title": "Congressional Politics"
+                },
+                {
+                    "id": "POLI-110",
+                    "title": "Government & the Constitution"
+                },
+                {
+                    "id": "POLI-123",
+                    "title": "Political Psychology"
+                },
+                {
+                    "id": "POLI-127",
+                    "title": "Race, Gender & Politics"
+                },
+                {
+                    "id": "POLI-135",
+                    "title": "Poli Behavior Around the World"
+                },
+                {
+                    "id": "POLI-140",
+                    "title": "Transitions to Democracy"
+                },
+                {
+                    "id": "POLI-155",
+                    "title": "Intl Political Economy"
+                },
+                {
+                    "id": "POLI-165",
+                    "title": "International Organizations"
+                },
+                {
+                    "id": "POLI-175",
+                    "title": "Adv. Analysis of Poli Data"
+                },
+                {
+                    "id": "POLI-190",
+                    "title": "Poli of Poverty & Prosperity"
+                },
+                {
+                    "id": "POLI-210",
+                    "title": "Quant Analysis Poli Data, I"
+                },
+                {
+                    "id": "POLI-223",
+                    "title": "Judicial Politics"
+                },
+                {
+                    "id": "POLI-230",
+                    "title": "Institutions/al Change"
+                },
+                {
+                    "id": "POLI-251",
+                    "title": "Political Cognition"
+                },
+                {
+                    "id": "POLI-289",
+                    "title": "Grad Professional Development"
+                }
+            ],
+            "name": "Political Science"
+        },
+        {
+            "code": "PSY",
+            "courses": [
+                {
+                    "id": "PSY-001",
+                    "title": "Introduction to Psychology"
+                },
+                {
+                    "id": "PSY-010",
+                    "title": "Analysis of Psychological Data"
+                },
+                {
+                    "id": "PSY-015",
+                    "title": "Research Methods in Psych"
+                },
+                {
+                    "id": "PSY-105",
+                    "title": "Adv Research Methods in Psych"
+                },
+                {
+                    "id": "PSY-120",
+                    "title": "Health Psychology"
+                },
+                {
+                    "id": "PSY-123",
+                    "title": "Alcohol, Drugs, and Behavior"
+                },
+                {
+                    "id": "PSY-124",
+                    "title": "Health Disparities"
+                },
+                {
+                    "id": "PSY-130",
+                    "title": "Developmental Psychology"
+                },
+                {
+                    "id": "PSY-133",
+                    "title": "Neuro. Cognitive Disorders"
+                },
+                {
+                    "id": "PSY-134",
+                    "title": "Adolescent Development"
+                },
+                {
+                    "id": "PSY-136",
+                    "title": "Cognitive Development"
+                },
+                {
+                    "id": "PSY-140",
+                    "title": "Clinical Psychology"
+                },
+                {
+                    "id": "PSY-142",
+                    "title": "Abnormal Psychology"
+                },
+                {
+                    "id": "PSY-143",
+                    "title": "Abnormal Child Psychology"
+                },
+                {
+                    "id": "PSY-145",
+                    "title": "Human Sexuality"
+                },
+                {
+                    "id": "PSY-151",
+                    "title": "Psy of Stereotype and Prejudic"
+                },
+                {
+                    "id": "PSY-156",
+                    "title": "Social Psychology"
+                },
+                {
+                    "id": "PSY-158",
+                    "title": "Positive Psychology"
+                },
+                {
+                    "id": "PSY-159",
+                    "title": "Personality Psychology"
+                },
+                {
+                    "id": "PSY-170",
+                    "title": "Industrial & Org Psychology"
+                },
+                {
+                    "id": "PSY-171",
+                    "title": "Psychological Tests"
+                },
+                {
+                    "id": "PSY-181",
+                    "title": "Clinical Neuropsychology"
+                },
+                {
+                    "id": "PSY-182",
+                    "title": "Evolutionary Psychology"
+                },
+                {
+                    "id": "PSY-200A",
+                    "title": "Professional Seminar"
+                },
+                {
+                    "id": "PSY-202A",
+                    "title": "Adv Psych Statistics I"
+                },
+                {
+                    "id": "PSY-204",
+                    "title": "Research Design & Methodology"
+                },
+                {
+                    "id": "PSY-207",
+                    "title": "Structural Equation Modeling"
+                },
+                {
+                    "id": "PSY-220",
+                    "title": "Health Psychology"
+                },
+                {
+                    "id": "PSY-235",
+                    "title": "Language Acquisition"
+                },
+                {
+                    "id": "PSY-280",
+                    "title": "Human Behavioral Genetics"
+                },
+                {
+                    "id": "PSY-290",
+                    "title": "Developmental Psych Seminar"
+                }
+            ],
+            "name": "Psychology"
+        },
+        {
+            "code": "QSB",
+            "courses": [
+                {
+                    "id": "QSB-200",
+                    "title": "Molecular Cell Biology"
+                },
+                {
+                    "id": "QSB-218",
+                    "title": "Global Change Biology"
+                },
+                {
+                    "id": "QSB-230",
+                    "title": "Ecological Genetics"
+                },
+                {
+                    "id": "QSB-245",
+                    "title": "Biogeography"
+                },
+                {
+                    "id": "QSB-247",
+                    "title": "Phyl Comp Methods"
+                },
+                {
+                    "id": "QSB-290",
+                    "title": "Topics in Systems Biology"
+                },
+                {
+                    "id": "QSB-291",
+                    "title": "QSB Seminar Series"
+                },
+                {
+                    "id": "QSB-292",
+                    "title": "QSB Group Meeting"
+                },
+                {
+                    "id": "QSB-293",
+                    "title": "QSB Journal Club"
+                },
+                {
+                    "id": "QSB-294",
+                    "title": "Respon Conduct of Research"
+                },
+                {
+                    "id": "QSB-296",
+                    "title": "Prof Skills Development"
+                },
+                {
+                    "id": "QSB-298",
+                    "title": "Directed Group Study"
+                }
+            ],
+            "name": "Quantitative & Systems Biology"
+        },
+        {
+            "code": "SOC",
+            "courses": [
+                {
+                    "id": "SOC-001",
+                    "title": "Introduction to Sociology"
+                },
+                {
+                    "id": "SOC-009",
+                    "title": "Comm Mobilization and Politics"
+                },
+                {
+                    "id": "SOC-010",
+                    "title": "Statistics for Sociology"
+                },
+                {
+                    "id": "SOC-015",
+                    "title": "Sociological Research Methods"
+                },
+                {
+                    "id": "SOC-038",
+                    "title": "Sociology of Race and Racism"
+                },
+                {
+                    "id": "SOC-100",
+                    "title": "Sociological Theory"
+                },
+                {
+                    "id": "SOC-110",
+                    "title": "Soc Move/Protest & Collect Act"
+                },
+                {
+                    "id": "SOC-116",
+                    "title": "Inequality & Public Policy"
+                },
+                {
+                    "id": "SOC-118",
+                    "title": "Hate Crime"
+                },
+                {
+                    "id": "SOC-132",
+                    "title": "Sociology of Education"
+                },
+                {
+                    "id": "SOC-160",
+                    "title": "Gender and Society"
+                },
+                {
+                    "id": "SOC-180",
+                    "title": "Advanced Race & Ethnicity"
+                },
+                {
+                    "id": "SOC-182",
+                    "title": "Immigration"
+                },
+                {
+                    "id": "SOC-205",
+                    "title": "Writing and Publishing"
+                },
+                {
+                    "id": "SOC-211",
+                    "title": "Grad Stats 2"
+                },
+                {
+                    "id": "SOC-232",
+                    "title": "Grad Soc of Ed"
+                },
+                {
+                    "id": "SOC-290",
+                    "title": "Intersectionality"
+                },
+                {
+                    "id": "SOC-297",
+                    "title": "Research for PhD Dissertation"
+                }
+            ],
+            "name": "Sociology"
+        },
+        {
+            "code": "SPAN",
+            "courses": [
+                {
+                    "id": "SPAN-001",
+                    "title": "Elementary Spanish I"
+                },
+                {
+                    "id": "SPAN-002",
+                    "title": "Elementary Spanish II"
+                },
+                {
+                    "id": "SPAN-003",
+                    "title": "Intermediate Spanish I"
+                },
+                {
+                    "id": "SPAN-004",
+                    "title": "Intermediate Spanish II"
+                },
+                {
+                    "id": "SPAN-010",
+                    "title": "Span for Heritage Speakers I"
+                },
+                {
+                    "id": "SPAN-011",
+                    "title": "Span for Heritage Speakers II"
+                },
+                {
+                    "id": "SPAN-050",
+                    "title": "Intro. to Hispanic Lit."
+                },
+                {
+                    "id": "SPAN-060",
+                    "title": "Intro to Chicano/a Culture"
+                },
+                {
+                    "id": "SPAN-103",
+                    "title": "Span Comp and Conv"
+                },
+                {
+                    "id": "SPAN-105",
+                    "title": "Hispanic Cultures I"
+                },
+                {
+                    "id": "SPAN-107",
+                    "title": "Span for Health Professionals"
+                },
+                {
+                    "id": "SPAN-113",
+                    "title": "U.S. Latino/a Literature"
+                },
+                {
+                    "id": "SPAN-123",
+                    "title": "Spanish 20-21C"
+                },
+                {
+                    "id": "SPAN-143",
+                    "title": "Latin Am Lit since Indep"
+                },
+                {
+                    "id": "SPAN-150",
+                    "title": "Asians in the Americas"
+                },
+                {
+                    "id": "SPAN-170",
+                    "title": "Spanish Linguistics"
+                }
+            ],
+            "name": "Spanish"
+        },
+        {
+            "code": "SPRK",
+            "courses": [
+                {
+                    "id": "SPRK-001",
+                    "title": "Should I Donate a Kidney?"
+                }
+            ],
+            "name": "Spark"
+        },
+        {
+            "code": "USTU",
+            "courses": [
+                {
+                    "id": "USTU-010",
+                    "title": "Intro to Undergraduate Studies"
+                }
+            ],
+            "name": "Undergraduate Studies"
+        },
+        {
+            "code": "WH",
+            "courses": [
+                {
+                    "id": "WH-002",
+                    "title": "Intro to Digital Heritage"
+                }
+            ],
+            "name": "World Heritage"
+        },
+        {
+            "code": "WRI",
+            "courses": [
+                {
+                    "id": "WRI-001",
+                    "title": "Academic Writing"
+                },
+                {
+                    "id": "WRI-010",
+                    "title": "College Reading & Composition"
+                },
+                {
+                    "id": "WRI-025",
+                    "title": "Intro to Creative Writing"
+                },
+                {
+                    "id": "WRI-030",
+                    "title": "Intro to Professional Writing"
+                },
+                {
+                    "id": "WRI-090",
+                    "title": "Intersections"
+                },
+                {
+                    "id": "WRI-100",
+                    "title": "Advanced Writing"
+                },
+                {
+                    "id": "WRI-101",
+                    "title": "Writing Discipline: Psychology"
+                },
+                {
+                    "id": "WRI-110",
+                    "title": "Tutor Training"
+                },
+                {
+                    "id": "WRI-112",
+                    "title": "Writing in the Arts"
+                },
+                {
+                    "id": "WRI-114",
+                    "title": "Environmental Writing"
+                },
+                {
+                    "id": "WRI-116",
+                    "title": "Science Writing in Natural Sci"
+                },
+                {
+                    "id": "WRI-117",
+                    "title": "Writing for Soc Sci and Human"
+                },
+                {
+                    "id": "WRI-118",
+                    "title": "Management Communication"
+                },
+                {
+                    "id": "WRI-119",
+                    "title": "Writing for Engineering"
+                },
+                {
+                    "id": "WRI-120",
+                    "title": "Rhetorical Theory"
+                },
+                {
+                    "id": "WRI-125D",
+                    "title": "Creative Writing: Drama"
+                },
+                {
+                    "id": "WRI-130",
+                    "title": "Multimedia Writing"
+                },
+                {
+                    "id": "WRI-131A",
+                    "title": "Journal Prod: Edit & Tech Wri"
+                },
+                {
+                    "id": "WRI-131B",
+                    "title": "Journal Production:Vernal Pool"
+                },
+                {
+                    "id": "WRI-131C",
+                    "title": "Undergraduate Research Journal"
+                },
+                {
+                    "id": "WRI-150",
+                    "title": "Seminar in Creative Writing"
+                }
+            ],
+            "name": "Writing"
+        }
+    ]
+}
