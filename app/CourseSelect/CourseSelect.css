@@ -9,6 +9,7 @@ fieldset {
 
 legend {
   font: 400 1rem "Source Sans Pro", Helvetica, sans-serif;  
+  margin-bottom: 0.5rem;
 }
 
 .course-select {
@@ -26,6 +27,7 @@ legend {
   font: 400 1rem "Source Sans Pro", Helvetica, sans-serif;  
   color: #0f5479;
   cursor: pointer;
+  margin-bottom: 0.5rem;
 }
 
 .department-heading:before {
@@ -52,15 +54,22 @@ legend {
   list-style: none;
 }
 
+.course-item {
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.course-item:last-of-type {
+  border-bottom: unset;
+}
+
 .course {
-  background-color: #FEFEFE;
-  padding: 0.125rem;
+  padding: 0.25rem 0;
   display: flex;
   align-items: center;
 }
 
 input[type="checkbox"] {
-  margin-right: 1rem;
+  margin: 0 1rem;
 }
 
 /* .department-courses > li:hover {

@@ -10,15 +10,15 @@
       <ul class="course-select">
         {{#departments}}
         <li class="department">
-          <span class="department-heading">{{name}}</span>
+          <div class="department-heading">{{name}} ({{code}})</div>
           <ul class="department-courses">
             {{#courses}}
-            <li>
+            <li class="course-item">
               <label for="{{code}}-{{courseNumber}}" class="course">
                 <input type="checkbox" name="courses" id="{{code}}-{{courseNumber}}" value="{{code}}-{{courseNumber}}">
                 <div class="course-info">
                   <div class="course-title">{{title}}</div>
-                  <div class="course-id">{{code}}-{{courseNumber}}</div>
+                  <div class="course-id">{{courseNumber}}</div>
                 </div>
               </label>
             </li>
