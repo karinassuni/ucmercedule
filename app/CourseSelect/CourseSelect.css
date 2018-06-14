@@ -1,3 +1,8 @@
+body {
+  margin: 1rem 0.5rem;
+}
+
+
 fieldset {
   border: none;
 }
@@ -7,8 +12,10 @@ legend {
 }
 
 .course-select {
+  width: 100%;
   margin-top: -1rem;
   list-style: none;
+  padding-left: 0;
 }
 
 .department-heading {
@@ -20,8 +27,8 @@ legend {
 
 .department-heading:before {
   font-size: 1rem;
-  content: "►";
-  margin-right: 0.5em;
+  content: "▸";
+  margin-right: 0.25rem;
 }
 
 .department-heading:hover {
@@ -34,18 +41,21 @@ legend {
   transition: color 0.1s ease;
 }
 
-.department-heading > label > input {
-
-}
-
 .department-courses {
-  display: none;
-  
-  padding-left: 1rem; 
+  padding-left: 1.5rem;
   font: 300 1rem "Open Sans", Helvetica, sans-serif;
   color: #000;
   background-color: #FFF;  
   list-style: none;
+}
+
+.course {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-bottom: 0.0625rem dashed #EEE;
 }
 
 /* .department-courses > li:hover {
@@ -56,4 +66,23 @@ legend {
 
 label {
   cursor: pointer;
+}
+
+.course-title {
+  flex-basis: 16rem;
+  flex-grow: 0;
+}
+
+.course-department {
+
+}
+
+.course-department:after {
+  content: "-";
+}
+
+.course-number {
+  flex-basis: 3rem;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
