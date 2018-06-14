@@ -84,6 +84,8 @@ label {
 
 .course-title {
   font: 300 1rem "Open Sans", Helvetica, sans-serif;
+  flex-basis: 16rem;
+  flex-grow: 1;
 }
 
 .course-department {
@@ -92,4 +94,6 @@ label {
 
 .course-id {
   font: 300 0.75rem "Open Sans", Helvetica, sans-serif;
+  flex-basis: 3rem;
+  flex-grow: 0;
 }
