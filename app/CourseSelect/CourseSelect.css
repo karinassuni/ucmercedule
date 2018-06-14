@@ -48,23 +48,19 @@ legend {
   /* display: none; */
 
   padding-left: 0;
-  font: 300 1rem "Open Sans", Helvetica, sans-serif;
   color: #000;
   list-style: none;
 }
 
 .course {
   background-color: #FEFEFE;
-  margin: 0.25rem 0;
-  padding: 0.25rem 0;
-  /* border-radius: 0.125rem; */
-  box-shadow: 0 1px 2px 0px #E0E0E0;
+  padding: 0.125rem;
   display: flex;
   align-items: center;
 }
 
 input[type="checkbox"] {
-  margin: 0 1rem;
+  margin-right: 1rem;
 }
 
 /* .department-courses > li:hover {
@@ -78,6 +74,7 @@ label {
 }
 
 .course-title {
+  font: 300 1rem "Open Sans", Helvetica, sans-serif;
 }
 
 .course-department {
@@ -86,5 +83,4 @@ label {
 
 .course-id {
   font: 300 0.75rem "Open Sans", Helvetica, sans-serif;
-  color: #555;
 }
