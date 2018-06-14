@@ -54,14 +54,17 @@ legend {
 }
 
 .course {
-  border-bottom: 0.0625rem dashed #EEE;
-
+  background-color: #FEFEFE;
+  margin: 0.25rem 0;
+  padding: 0.25rem 0;
+  /* border-radius: 0.125rem; */
+  box-shadow: 0 1px 2px 0px #E0E0E0;
   display: flex;
   align-items: center;
 }
 
 input[type="checkbox"] {
-  margin-right: 1rem;
+  margin: 0 1rem;
 }
 
 /* .department-courses > li:hover {
