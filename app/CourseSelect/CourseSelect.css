@@ -18,9 +18,12 @@ legend {
   padding-left: 0;
 }
 
+.department {
+  margin-top: 1rem;
+}
+
 .department-heading {
   font: 400 1rem "Source Sans Pro", Helvetica, sans-serif;  
-  margin-top: 1rem;
   color: #0f5479;
   cursor: pointer;
 }
@@ -42,20 +45,23 @@ legend {
 }
 
 .department-courses {
-  padding-left: 1.5rem;
+  /* display: none; */
+
+  padding-left: 0;
   font: 300 1rem "Open Sans", Helvetica, sans-serif;
   color: #000;
-  background-color: #FFF;  
   list-style: none;
 }
 
 .course {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-
   border-bottom: 0.0625rem dashed #EEE;
+
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 1rem;
 }
 
 /* .department-courses > li:hover {
@@ -69,20 +75,13 @@ label {
 }
 
 .course-title {
-  flex-basis: 16rem;
-  flex-grow: 0;
 }
 
 .course-department {
 
 }
 
-.course-department:after {
-  content: "-";
-}
-
-.course-number {
-  flex-basis: 3rem;
-  flex-grow: 0;
-  flex-shrink: 0;
+.course-id {
+  font: 300 0.75rem "Open Sans", Helvetica, sans-serif;
+  color: #555;
 }

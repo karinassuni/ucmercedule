@@ -9,15 +9,17 @@
       <legend>Choose your courses:</legend>
       <ul class="course-select">
         {{#departments}}
-        <li class="department-heading">
-          {{name}} ({{code}})
+        <li class="department">
+          <span class="department-heading">{{name}}</span>
           <ul class="department-courses">
             {{#courses}}
             <li>
               <label for="{{code}}-{{courseNumber}}" class="course">
-                <div class="course-title">{{title}}</div>
-                <div class="course-number">{{courseNumber}}</div>
                 <input type="checkbox" name="courses" id="{{code}}-{{courseNumber}}" value="{{code}}-{{courseNumber}}">
+                <div class="course-info">
+                  <div class="course-title">{{title}}</div>
+                  <div class="course-id">{{code}}-{{courseNumber}}</div>
+                </div>
               </label>
             </li>
             {{/courses}}
