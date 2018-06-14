@@ -6,18 +6,18 @@
 <body>
   <form>
     <fieldset>
-      <legend>Choose your courses:</legend>
+      <legend>Choose your courses</legend>
       <ul class="course-select">
         {{#departments}}
-        <li class="department-heading">
-          {{name}} ({{code}})
+        <li class="department">
+          <div class="department-heading">{{name}} ({{code}})</div>
           <ul class="department-courses">
             {{#courses}}
-            <li>
+            <li class="course-item">
               <label for="{{code}}-{{courseNumber}}" class="course">
-                <div class="course-title">{{title}}</div>
-                <div class="course-number">{{courseNumber}}</div>
                 <input type="checkbox" name="courses" id="{{code}}-{{courseNumber}}" value="{{code}}-{{courseNumber}}">
+                <div class="course-title">{{title}}</div>
+                <div class="course-id">{{courseNumber}}</div>
               </label>
             </li>
             {{/courses}}

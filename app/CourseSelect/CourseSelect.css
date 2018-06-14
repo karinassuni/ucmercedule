@@ -8,7 +8,9 @@ fieldset {
 }
 
 legend {
-  font: 400 1rem "Source Sans Pro", Helvetica, sans-serif;  
+  font: 400 1rem "Open Sans", Helvetica, sans-serif;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .course-select {
@@ -18,11 +20,15 @@ legend {
   padding-left: 0;
 }
 
-.department-heading {
-  font: 400 1rem "Source Sans Pro", Helvetica, sans-serif;  
+.department {
   margin-top: 1rem;
+}
+
+.department-heading {
+  font: 400 1rem "Open Sans", Helvetica, sans-serif;
   color: #0f5479;
   cursor: pointer;
+  margin-bottom: 0.5rem;
 }
 
 .department-heading:before {
@@ -42,20 +48,29 @@ legend {
 }
 
 .department-courses {
-  padding-left: 1.5rem;
-  font: 300 1rem "Open Sans", Helvetica, sans-serif;
+  /* display: none; */
+
+  padding-left: 0;
   color: #000;
-  background-color: #FFF;  
   list-style: none;
 }
 
-.course {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+.course-item {
+  border-bottom: 1px solid #F5F5F5;
+}
 
-  border-bottom: 0.0625rem dashed #EEE;
+.course-item:last-of-type {
+  border-bottom: unset;
+}
+
+.course {
+  padding: 0.25rem 0;
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin: 0 1rem;
 }
 
 /* .department-courses > li:hover {
@@ -69,20 +84,17 @@ label {
 }
 
 .course-title {
+  font: 300 1rem "Open Sans", Helvetica, sans-serif;
   flex-basis: 16rem;
-  flex-grow: 0;
+  flex-grow: 1;
 }
 
 .course-department {
 
 }
 
-.course-department:after {
-  content: "-";
-}
-
-.course-number {
+.course-id {
+  font: 300 0.75rem "Open Sans", Helvetica, sans-serif;
   flex-basis: 3rem;
   flex-grow: 0;
-  flex-shrink: 0;
 }
