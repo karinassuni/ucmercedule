@@ -89,12 +89,22 @@ label {
   flex-grow: 1;
 }
 
-.course-department {
-
-}
-
 .course-id {
   font: 300 0.75rem "Open Sans", Helvetica, sans-serif;
   flex-basis: 3rem;
   flex-grow: 0;
+}
+
+.course-department {
+  display: none;
+}
+
+@media (min-width: 490px) {
+  .course-department {
+    display: initial;
+  }
+
+  .course-id {
+    flex-basis: 5rem;
+  }
 }

@@ -17,7 +17,10 @@
               <label for="{{code}}-{{courseNumber}}" class="course">
                 <input type="checkbox" name="courses" id="{{code}}-{{courseNumber}}" value="{{code}}-{{courseNumber}}">
                 <div class="course-title">{{title}}</div>
-                <div class="course-id">{{courseNumber}}</div>
+                <div class="course-id">
+                  <span class="course-department">{{code}}</span>
+                  <span class="course-number">{{courseNumber}}</span>
+                </div>
               </label>
             </li>
             {{/courses}}
