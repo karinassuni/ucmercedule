@@ -1,15 +1,21 @@
-body {
-  margin: 1rem 0.5rem;
+:root {
+  font-size: 100%; /* for user stylesheets, accessibility */
+  margin: 0;
+  background-color: hsl(201, 77.9%, 26.7%);
 }
 
-
 fieldset {
+  margin-top: 1rem;
   border: none;
 }
 
 legend {
-  font: 400 1rem "Open Sans", Helvetica, sans-serif;
-  margin-bottom: 0.5rem;
+  font: 300 1rem "Open Sans", Helvetica, sans-serif;
+  color: #FFF;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid hsl(201, 77.9%, 32.0%);
   text-align: center;
 }
 
@@ -26,8 +32,8 @@ legend {
 
 .department-heading {
   display: flex;
-  font: 400 1rem "Open Sans", Helvetica, sans-serif;
-  color: #0f5479;
+  font: 600 1rem "Open Sans", Helvetica, sans-serif;
+  color: #FFF;
   cursor: pointer;
   margin-bottom: 0.5rem;
   align-items: center;
@@ -41,7 +47,7 @@ legend {
 }
 
 .department-heading:hover {
-  color: #988556;
+  color: hsl(43, 27.7%, 56.7%);
   transition: color 0.1s ease;
 }
 
@@ -49,21 +55,24 @@ legend {
   /* display: none; */
 
   padding-left: 0;
-  color: #000;
+  color: #FFF;
   list-style: none;
+
+  padding-bottom: 1rem;
+  border-bottom: 1px solid hsl(201, 77.9%, 32.0%);
 }
 
 .course-item {
-}
-
-.course-item:last-of-type {
-  border-bottom: unset;
 }
 
 .course {
   padding: 0.25rem 0;
   display: flex;
   align-items: center;
+}
+
+.course-item:last-of-type > .course {
+  padding-bottom: 0;
 }
 
 input[type="checkbox"] {
