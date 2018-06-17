@@ -10,8 +10,8 @@
       <ul class="course-select">
         {{#departments}}
         <li class="department">
-          <div class="department-heading">{{name}} ({{code}})</div>
-          <ul class="department-courses">
+          <div class="department-heading" tabindex="0">{{name}} ({{code}})</div>
+          <ul class="department-courses" hidden>
             {{#courses}}
             <li class="course-item">
               <label for="{{code}}-{{courseNumber}}" class="course">
@@ -30,6 +30,7 @@
       </ul>
     </fieldset>
   </form>
+  <script type="text/javascript" src="CourseSelect/CourseSelect.js"></script>
 </body>
 
 </html>

@@ -4,7 +4,7 @@ const mustache = require("gulp-mustache");
 const rename = require('gulp-rename')
 const concat = require("gulp-concat");
 
-gulp.task("serve", ["template"], () => {
+gulp.task("serve", ["build"], () => {
   browserSync.init({
     server: {
       baseDir: "dist",
@@ -14,6 +14,7 @@ gulp.task("serve", ["template"], () => {
 
   gulp.watch("app/**/*.mustache", ["template"]);
   gulp.watch("app/**/*.css", ["css"])
+  gulp.watch("app/**/*.js", ["js"]);
   gulp.watch("dist/*.html", browserSync.reload);
 });
 
@@ -36,6 +37,13 @@ gulp.task("css", () => {
     .pipe(browserSync.stream())
 });
 
-gulp.task("build", ["template", "css"]);
+gulp.task("js", () => {
+  return gulp
+    .src("app/**/*.js", { base: "app" })
+    .pipe(gulp.dest("dist/"))
+    .pipe(browserSync.stream());
+});
+
+gulp.task("build", ["template", "css", "js"]);
 
 gulp.task("default", ["serve"]);
