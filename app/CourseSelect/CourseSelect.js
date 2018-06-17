@@ -1,6 +1,9 @@
-function DepartmentAccordion(heading) {
-  this.heading = heading;
-  this.courseList = heading.nextElementSibling; // .department-courses
+function DepartmentAccordion(departmentItem, group) {
+  this.group = group;
+  this.departmentItem = departmentItem;
+  this.heading = departmentItem.firstElementChild;
+  this.toggleButton = this.heading.firstElementChild;
+  this.courseList = this.heading.nextElementSibling; // .department-courses
   this.visible = false;
 
   /* 
@@ -11,13 +14,17 @@ function DepartmentAccordion(heading) {
   this.heading.onkeydown = this.onKeydown.bind(this);
 }
 
+DepartmentAccordion.prototype.focus = function() {
+  this.toggleButton.focus();
+};
+
 DepartmentAccordion.prototype.toggleHandler = function() {
   if (!this.visible) {
     this.courseList.removeAttribute("hidden");
-    this.heading.firstElementChild.setAttribute("aria-expanded", "true");
+    this.toggleButton.setAttribute("aria-expanded", "true");
   } else {
     this.courseList.setAttribute("hidden", "");
-    this.heading.firstElementChild.setAttribute("aria-expanded", "false");
+    this.toggleButton.setAttribute("aria-expanded", "false");
   }
 
   this.heading.classList.toggle("department-heading--selected");
@@ -34,13 +41,40 @@ DepartmentAccordion.prototype.onKeydown = function(event) {
       break;
 
     case 40: // Down
+      this.group.focusNext(this);
+      event.preventDefault();
+      break;
+    case 38: // Up
+      this.group.focusPrevious(this);
       event.preventDefault();
       break;
   }
 };
 
-var departmentHeadings = document.getElementsByClassName("department-heading");
+function DepartmentGroup() {
+  this.accordions = [];
+  var departments = document.getElementsByClassName("department");
+  for (var i = 0; i < departments.length; ++i) {
+    this.accordions.push(new DepartmentAccordion(departments[i], this));
+  }
 
-for (var i = 0; i < departmentHeadings.length; ++i) {
-  new DepartmentAccordion(departmentHeadings[i]);
+  this.findCurrent = function(current) {
+    for (var i = 0; i < this.accordions.length; ++i) {
+      if (this.accordions[i] == current) {
+        return i;
+      }
+    }
+  };
+
+  this.focusNext = function(current) {
+    var currentIndex = this.findCurrent(current);
+    this.accordions[currentIndex + 1].focus();
+  };
+
+  this.focusPrevious = function(current) {
+    var currentIndex = this.findCurrent(current);
+    this.accordions[currentIndex - 1].focus();
+  };
 }
+
+new DepartmentGroup();
