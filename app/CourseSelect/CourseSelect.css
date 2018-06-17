@@ -4,6 +4,12 @@
   background-color: hsl(201, 77.9%, 26.7%);
 }
 
+form {
+  width: 572px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 fieldset {
   margin-top: 1rem;
   border: none;
@@ -20,10 +26,9 @@ legend {
 }
 
 .course-select {
-  width: 100%;
   margin-top: -1rem;
   list-style: none;
-  padding-left: 0;
+  padding: 0;
 }
 
 .department {
@@ -108,12 +113,20 @@ label {
   display: none;
 }
 
-@media (min-width: 490px) {
+@media (min-width: 481px) {
   .course-department {
     display: initial;
   }
 
   .course-id {
     flex-basis: 5rem;
+  }
+}
+
+@media (max-width: 590px) {
+  form {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
