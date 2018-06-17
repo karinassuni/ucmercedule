@@ -8,6 +8,7 @@ function DepartmentAccordion(heading) {
    * .bind returns a new function with a new `this`
    */
   this.heading.onclick = this.toggleHandler.bind(this);
+  this.heading.onkeydown = this.onKeydown.bind(this);
 }
 
 DepartmentAccordion.prototype.toggleHandler = function() {
@@ -22,6 +23,20 @@ DepartmentAccordion.prototype.toggleHandler = function() {
   this.heading.classList.toggle("department-heading--selected");
 
   this.visible = !this.visible;
+};
+
+DepartmentAccordion.prototype.onKeydown = function(event) {
+  switch (event.keyCode) {
+    case 13: // Enter
+    case 32: // Space
+      this.toggleHandler.call(this);
+      event.preventDefault();
+      break;
+
+    case 40: // Down
+      event.preventDefault();
+      break;
+  }
 };
 
 var departmentHeadings = document.getElementsByClassName("department-heading");

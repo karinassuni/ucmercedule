@@ -44,7 +44,7 @@ legend {
 }
 
 .department-heading:hover,
-.department-heading:focus,
+.department-heading > [role="button"]:focus,
 .course:hover
 {
   color: hsl(43, 47.7%, 66.7%);
