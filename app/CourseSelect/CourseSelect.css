@@ -1,5 +1,5 @@
 :root {
-  font-size: 100%; /* for user stylesheets, accessibility */
+  font-size: 105%; /* for user stylesheets, accessibility */
   margin: 0;
   background-color: hsl(201, 77.9%, 26.7%);
 }
