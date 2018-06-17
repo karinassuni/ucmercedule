@@ -1,23 +1,25 @@
-function Accordion(element) {
-  this.element = element;
+function DepartmentAccordion(heading) {
+  this.heading = heading;
+  this.courseList = heading.nextElementSibling; // .department-courses
   this.visible = false;
 
   /* 
    * Event handlers have their `this` set to the targeted element by default;
    * .bind returns a new function with a new `this`
    */
-  this.element.onclick = this.toggleHandler.bind(this);
+  this.heading.onclick = this.toggleHandler.bind(this);
 }
 
-Accordion.prototype.toggleHandler = function() {
-  var courseList = this.element.nextElementSibling; // .department-courses
+DepartmentAccordion.prototype.toggleHandler = function() {
   if (!this.visible) {
-    courseList.removeAttribute("hidden");
+    this.courseList.removeAttribute("hidden");
+    this.heading.firstElementChild.setAttribute("aria-expanded", "true");
   } else {
-    courseList.setAttribute("hidden", "");
+    this.courseList.setAttribute("hidden", "");
+    this.heading.firstElementChild.setAttribute("aria-expanded", "false");
   }
 
-  this.element.classList.toggle("department-heading--selected");
+  this.heading.classList.toggle("department-heading--selected");
 
   this.visible = !this.visible;
 };
@@ -25,5 +27,5 @@ Accordion.prototype.toggleHandler = function() {
 var departmentHeadings = document.getElementsByClassName("department-heading");
 
 for (var i = 0; i < departmentHeadings.length; ++i) {
-  new Accordion(departmentHeadings[i]);
+  new DepartmentAccordion(departmentHeadings[i]);
 }
