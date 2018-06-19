@@ -66,7 +66,10 @@ DepartmentAccordion.prototype.toggleHandler = function() {
 DepartmentAccordion.prototype.onKeydown = function(event) {
   switch (event.keyCode) {
     case 13: // Enter
-      this.toggleHandler.call(this);
+      if (event.target.hasAttribute("aria-controls")) {
+        this.toggleHandler.call(this);
+        event.preventDefault();
+      }
       break;
     case 32: // Space
       if (event.target.tagName !== "INPUT") {
