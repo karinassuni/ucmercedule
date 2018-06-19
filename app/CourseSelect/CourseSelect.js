@@ -66,9 +66,14 @@ DepartmentAccordion.prototype.toggleHandler = function() {
 DepartmentAccordion.prototype.onKeydown = function(event) {
   switch (event.keyCode) {
     case 13: // Enter
-    case 32: // Space
       this.toggleHandler.call(this);
-      event.preventDefault();
+      break;
+    case 32: // Space
+      if (event.target.tagName !== "INPUT") {
+        this.toggleHandler.call(this);
+        event.preventDefault();
+      }
+      // else checkboxes are selected with Space, as noraml
       break;
 
     case 40: // Down
