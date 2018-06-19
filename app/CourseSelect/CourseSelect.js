@@ -4,8 +4,14 @@ function DepartmentAccordion(departmentItem, group) {
   this.heading = departmentItem.firstElementChild;
   this.toggleButton = this.heading.firstElementChild;
   this.courseList = this.heading.nextElementSibling; // .department-courses
-  this.checkboxes = this.courseList.getElementsByTagName("input");
+
+  this.checkboxes = [];
+  var checkboxes = this.courseList.getElementsByTagName("input");
+  for (var i = 0; i < checkboxes.length; ++i) {
+    this.checkboxes.push(new Checkbox(checkboxes[i], this));
+  }
   this.currentCheckbox = -1;
+
   this.visible = false;
 
   /* 
@@ -14,19 +20,48 @@ function DepartmentAccordion(departmentItem, group) {
    */
   this.heading.onclick = this.toggleHandler.bind(this);
   this.departmentItem.onkeydown = this.onKeydown.bind(this);
-
-  for (var i = 0; i < this.checkboxes.length; ++i) {
-    this.checkboxes[i].onfocus = this.onFocusCheckbox.bind(this);
-  }
 }
 
-DepartmentAccordion.prototype.onFocusCheckbox = function(event) {
-  for (var i = 0; i < this.checkboxes.length; ++i) {
-    if (this.checkboxes[i] == event.target) {
-      this.currentCheckbox = i;
-      return;
-    }
+function Checkbox(checkboxElement, accordion) {
+  this.element = checkboxElement;
+  this.accordion = accordion;
+  this.course = checkboxElement.parentElement;
+  this.checked = false;
+
+  this.element.onfocus = this.onFocus.bind(this);
+  this.element.onblur = this.onBlur.bind(this);
+  this.element.onchange = this.onChange.bind(this);
+}
+
+Checkbox.prototype.focus = function() {
+  this.element.focus();
+};
+
+Checkbox.prototype.onFocus = function() {
+  if (this.checked) {
+    this.course.classList.add("course-selected-focus");
   }
+  this.course.classList.add("course-focus");
+  this.accordion.setCurrentCheckbox(this);
+};
+
+Checkbox.prototype.onBlur = function() {
+  if (this.checked) {
+    this.course.classList.remove("course-selected-focus");
+  }
+  this.course.classList.remove("course-focus");
+};
+
+Checkbox.prototype.onChange = function() {
+  this.checked = !this.checked;
+  if (!this.checked) {
+    this.course.classList.remove("course-selected-focus");
+  }
+  this.course.classList.toggle("course-selected");
+};
+
+DepartmentAccordion.prototype.setCurrentCheckbox = function(checkbox) {
+  this.currentCheckbox = this.checkboxes.indexOf(checkbox);
 };
 
 DepartmentAccordion.prototype.focusNext = function() {
