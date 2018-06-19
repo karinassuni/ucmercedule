@@ -14,7 +14,20 @@ function DepartmentAccordion(departmentItem, group) {
    */
   this.heading.onclick = this.toggleHandler.bind(this);
   this.departmentItem.onkeydown = this.onKeydown.bind(this);
+
+  for (var i = 0; i < this.checkboxes.length; ++i) {
+    this.checkboxes[i].onfocus = this.onFocusCheckbox.bind(this);
+  }
 }
+
+DepartmentAccordion.prototype.onFocusCheckbox = function(event) {
+  for (var i = 0; i < this.checkboxes.length; ++i) {
+    if (this.checkboxes[i] == event.target) {
+      this.currentCheckbox = i;
+      return;
+    }
+  }
+};
 
 DepartmentAccordion.prototype.focusNext = function() {
   var nextCheckbox = this.currentCheckbox + 1;
@@ -102,7 +115,11 @@ function DepartmentGroup() {
   this.accordions = [];
   var departments = document.getElementsByClassName("department");
   for (var i = 0; i < departments.length; ++i) {
-    this.accordions.push(new DepartmentAccordion(departments[i], this));
+    var accordion = new DepartmentAccordion(departments[i], this);
+
+    accordion.toggleButton.onfocus = this.onFocusAccordionHeading.bind(this);
+
+    this.accordions.push(accordion);
   }
 
   this.current = 0;
@@ -127,6 +144,16 @@ DepartmentGroup.prototype.focusPrevious = function() {
   } else if (prevAccordion == -1) {
     this.accordions[this.accordions.length - 1].focus();
     this.current = this.accordions.length - 1; // wrap
+  }
+};
+
+DepartmentGroup.prototype.onFocusAccordionHeading = function(event) {
+  for (var i = 0; i < this.accordions.length; ++i) {
+    if (this.accordions[i].toggleButton == event.target) {
+      this.current = i;
+      this.accordions[i].currentCheckbox = -1; // reset checkbox focus index
+      return;
+    }
   }
 };
 
