@@ -108,6 +108,17 @@ DepartmentAccordion.prototype.onKeydown = function(event) {
       }
       event.preventDefault();
       break;
+
+    case 39: // Right
+      this.group.focusNext(this);
+      break;
+    case 37: // Left
+      if (event.target.hasAttribute("aria-controls")) {
+        this.group.focusPrevious(this);
+      } else if (event.target.tagName === "INPUT") {
+        this.toggleButton.focus();
+      }
+      break;
   }
 };
 
