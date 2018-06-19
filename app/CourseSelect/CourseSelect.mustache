@@ -10,8 +10,12 @@
       <ul class="course-select">
         {{#departments}}
         <li class="department">
-          <div class="department-heading">{{name}} ({{code}})</div>
-          <ul class="department-courses">
+          <h1 class="department-heading">
+            <div role="button" aria-controls="{{code}}" aria-expanded="false" tabindex="0">
+              {{name}} ({{code}})
+            </div>
+          </h1>
+          <ul class="department-courses" id="{{code}}" hidden>
             {{#courses}}
             <li class="course-item">
               <label for="{{code}}-{{courseNumber}}" class="course">
@@ -30,6 +34,7 @@
       </ul>
     </fieldset>
   </form>
+  <script type="text/javascript" src="CourseSelect/CourseSelect.js"></script>
 </body>
 
 </html>
