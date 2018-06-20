@@ -41,23 +41,17 @@ legend {
   cursor: pointer;
   margin-bottom: 0.5rem;
   padding-left: 2.5rem;
+  transition: all 0.15s ease;
 }
 
 .department-heading:hover,
 .department-heading > [role="button"]:focus 
 {
   color: hsl(43, 47.7%, 66.7%);
-  transition: color 0.1s ease;
-}
-
-.department-heading--selected,
-.department-heading--selected:focus,
-.department-heading--selected:hover
-{
-  color: hsl(43, 47.7%, 66.7%);
 }
 
 .department-heading--selected {
+  color: hsl(43, 47.7%, 66.7%);
   font-size: 1.25rem;
   margin-top: 4rem;
 }
@@ -66,17 +60,21 @@ legend {
   margin-top: 0;
 }
 
-.department-courses[hidden] {
-  display: none;
-}
-
 .department-courses {
   padding-left: 0;
   color: #FFF;
   list-style: none;
 
+  margin-bottom: 0rem;
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.25s ease-out, margin-bottom 0.25s ease-out;
+  visibility: hidden;
+}
+
+.department-courses--open {
   margin-bottom: 4rem;
-  /* border-bottom: 1px solid hsl(201, 77.9%, 32.0%); */
+  visibility: visible;
 }
 
 .course-item {

@@ -97,12 +97,52 @@ DepartmentAccordion.prototype.focus = function() {
   }
 };
 
+DepartmentAccordion.prototype.collapse = function() {
+  // *Current* content height based on viewport settings (window size, zoom,
+  // user stylesheets)
+  var sectionHeight = this.courseList.scrollHeight;
+  var style = this.courseList.style;
+
+  // Guarantee that these style changes are rendered in *separate* and ordered
+  // steps
+  requestAnimationFrame(function() {
+    // Must set an explicit height in order for height transitions to work
+    style.height = sectionHeight + "px";
+
+    // On the next frame, *start* transitioning to height: 0
+    requestAnimationFrame(function() {
+      style.height = 0 + "px";
+    });
+  });
+
+  this.courseList.classList.remove("department-courses--open");
+};
+
+DepartmentAccordion.prototype.expand = function() {
+  var sectionHeight = this.courseList.scrollHeight;
+  // Expand height to reveal content; causes transition
+  // Note: height is now inline and *static*, so we must clear it after
+  // transition
+  this.courseList.style.height = sectionHeight + "px";
+
+  this.courseList.classList.add("department-courses--open");
+
+  this.courseList.ontransitioned = function() {
+    // Only trigger once
+    this.courseList.ontransitioned = null;
+    // Clear static inline height
+    this.courseList.style.height = null;
+  };
+};
+
 DepartmentAccordion.prototype.toggleHandler = function() {
   if (!this.visible) {
-    this.courseList.removeAttribute("hidden");
+    this.expand();
+    // this.courseList.removeAttribute("hidden");
     this.toggleButton.setAttribute("aria-expanded", "true");
   } else {
-    this.courseList.setAttribute("hidden", "");
+    this.collapse();
+    // this.courseList.setAttribute("hidden", "");
     this.toggleButton.setAttribute("aria-expanded", "false");
   }
 
