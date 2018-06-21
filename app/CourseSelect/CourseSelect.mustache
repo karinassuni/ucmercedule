@@ -7,24 +7,24 @@
   <form>
     <fieldset>
       <legend>Choose your courses</legend>
-      <ul class="course-select">
+      <ul class="department-list">
         {{#departments}}
         <li class="department">
-          <h1 class="department-heading">
-            <div role="button" aria-controls="{{code}}" aria-expanded="false" tabindex="0">
+          <h1>
+            <span class="heading-button" role="button" aria-controls="{{code}}" aria-expanded="false" tabindex="0">
               {{name}} ({{code}})
-            </div>
+            </span>
           </h1>
-          <ul class="department-courses" id="{{code}}">
+          <ul class="course-list" id="{{code}}">
             {{#courses}}
-            <li class="course-item">
-              <label for="{{code}}-{{courseNumber}}" class="course">
+            <li>
+              <label class="course" for="{{code}}-{{courseNumber}}">
                 <input type="checkbox" name="courses" id="{{code}}-{{courseNumber}}" value="{{code}}-{{courseNumber}}">
-                <div class="course-title">{{title}}</div>
-                <div class="course-id">
-                  <span class="course-department">{{code}}</span>
-                  <span class="course-number">{{courseNumber}}</span>
-                </div>
+                <dt class="course__title">{{title}}</dt>
+                <dd class="course__id">
+                  <span class="course__id__department">{{code}}</span>
+                  <span class="course__id__number">{{courseNumber}}</span>
+                </dd>
               </label>
             </li>
             {{/courses}}

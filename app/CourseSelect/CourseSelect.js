@@ -1,9 +1,10 @@
 function DepartmentAccordion(departmentItem, group) {
   this.group = group;
   this.departmentItem = departmentItem;
-  this.heading = departmentItem.firstElementChild;
-  this.toggleButton = this.heading.firstElementChild;
-  this.courseList = this.heading.nextElementSibling; // .department-courses
+  this.headingButton = departmentItem.getElementsByClassName(
+    "heading-button"
+  )[0];
+  this.courseList = departmentItem.getElementsByClassName("course-list")[0];
 
   this.checkboxes = [];
   var checkboxes = this.courseList.getElementsByTagName("input");
@@ -18,7 +19,7 @@ function DepartmentAccordion(departmentItem, group) {
    * Event handlers have their `this` set to the targeted element by default;
    * .bind returns a new function with a new `this`
    */
-  this.heading.onclick = this.toggleHandler.bind(this);
+  this.headingButton.onclick = this.toggleHandler.bind(this);
   this.departmentItem.onkeydown = this.onKeydown.bind(this);
 }
 
@@ -39,25 +40,25 @@ Checkbox.prototype.focus = function() {
 
 Checkbox.prototype.onFocus = function() {
   if (this.checked) {
-    this.course.classList.add("course-selected-focus");
+    this.course.classList.add("course--selected--focused");
   }
-  this.course.classList.add("course-focus");
+  this.course.classList.add("course--focused");
   this.accordion.setCurrentCheckbox(this);
 };
 
 Checkbox.prototype.onBlur = function() {
   if (this.checked) {
-    this.course.classList.remove("course-selected-focus");
+    this.course.classList.remove("course--selected--focused");
   }
-  this.course.classList.remove("course-focus");
+  this.course.classList.remove("course--focused");
 };
 
 Checkbox.prototype.onChange = function() {
   this.checked = !this.checked;
   if (!this.checked) {
-    this.course.classList.remove("course-selected-focus");
+    this.course.classList.remove("course--selected--focused");
   }
-  this.course.classList.toggle("course-selected");
+  this.course.classList.toggle("course--selected");
 };
 
 DepartmentAccordion.prototype.setCurrentCheckbox = function(checkbox) {
@@ -80,7 +81,7 @@ DepartmentAccordion.prototype.focusPrevious = function() {
     this.checkboxes[prevCheckbox].focus();
     this.currentCheckbox = prevCheckbox;
   } else if (prevCheckbox == -1) {
-    this.toggleButton.focus();
+    this.headingButton.focus();
     this.currentCheckbox = prevCheckbox;
   } else if (prevCheckbox == -2) {
     this.group.focusPrevious(this);
@@ -93,7 +94,7 @@ DepartmentAccordion.prototype.focus = function() {
   if (this.visible && isResumingProgress) {
     this.checkboxes[this.currentCheckbox].focus();
   } else {
-    this.toggleButton.focus();
+    this.headingButton.focus();
   }
 };
 
@@ -115,7 +116,7 @@ DepartmentAccordion.prototype.collapse = function() {
     });
   });
 
-  this.courseList.classList.remove("department-courses--open");
+  this.courseList.classList.remove("course-list--open");
 };
 
 DepartmentAccordion.prototype.expand = function() {
@@ -125,7 +126,7 @@ DepartmentAccordion.prototype.expand = function() {
   // transition
   this.courseList.style.height = sectionHeight + "px";
 
-  this.courseList.classList.add("department-courses--open");
+  this.courseList.classList.add("course-list--open");
 
   this.courseList.ontransitioned = function() {
     // Only trigger once
@@ -138,15 +139,13 @@ DepartmentAccordion.prototype.expand = function() {
 DepartmentAccordion.prototype.toggleHandler = function() {
   if (!this.visible) {
     this.expand();
-    // this.courseList.removeAttribute("hidden");
-    this.toggleButton.setAttribute("aria-expanded", "true");
+    this.headingButton.setAttribute("aria-expanded", "true");
   } else {
     this.collapse();
-    // this.courseList.setAttribute("hidden", "");
-    this.toggleButton.setAttribute("aria-expanded", "false");
+    this.headingButton.setAttribute("aria-expanded", "false");
   }
 
-  this.heading.classList.toggle("department-heading--selected");
+  this.headingButton.classList.toggle("heading-button--toggled");
 
   this.visible = !this.visible;
 };
@@ -154,7 +153,7 @@ DepartmentAccordion.prototype.toggleHandler = function() {
 DepartmentAccordion.prototype.onKeydown = function(event) {
   switch (event.keyCode) {
     case 13: // Enter
-      if (event.target.hasAttribute("aria-controls")) {
+      if (event.target.className === "heading-button") {
         this.toggleHandler.call(this);
         event.preventDefault();
       }
@@ -191,7 +190,7 @@ DepartmentAccordion.prototype.onKeydown = function(event) {
       if (event.target.hasAttribute("aria-controls")) {
         this.group.focusPrevious(this);
       } else if (event.target.tagName === "INPUT") {
-        this.toggleButton.focus();
+        this.headingButton.focus();
       }
       break;
   }
@@ -203,7 +202,7 @@ function DepartmentGroup() {
   for (var i = 0; i < departments.length; ++i) {
     var accordion = new DepartmentAccordion(departments[i], this);
 
-    accordion.toggleButton.onfocus = this.onFocusAccordionHeading.bind(this);
+    accordion.headingButton.onfocus = this.onFocusAccordionHeading.bind(this);
 
     this.accordions.push(accordion);
   }
@@ -235,7 +234,7 @@ DepartmentGroup.prototype.focusPrevious = function() {
 
 DepartmentGroup.prototype.onFocusAccordionHeading = function(event) {
   for (var i = 0; i < this.accordions.length; ++i) {
-    if (this.accordions[i].toggleButton == event.target) {
+    if (this.accordions[i].headingButton == event.target) {
       this.current = i;
       this.accordions[i].currentCheckbox = -1; // reset checkbox focus index
       return;

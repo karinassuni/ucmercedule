@@ -1,5 +1,5 @@
 :root {
-  font-size: 105%; /* for user stylesheets, accessibility */
+  font-size: 105%;
   margin: 0;
   background-color: hsl(201, 77.9%, 26.7%);
 }
@@ -25,7 +25,7 @@ legend {
   text-align: center;
 }
 
-.course-select {
+.department-list {
   margin-top: -1rem;
   list-style: none;
   padding: 0;
@@ -35,32 +35,37 @@ legend {
   margin-top: 1rem;
 }
 
-.department-heading {
+h1 {
+  margin: 0;
+}
+
+.heading-button {
+  display: block;
   font: 600 1rem "Open Sans", Helvetica, sans-serif;
   color: #FFF;
   cursor: pointer;
   margin-bottom: 0.5rem;
-  padding-left: 2.5rem;
+  margin-left: 2.5rem;
   transition: all 0.15s ease;
 }
 
-.department-heading:hover,
-.department-heading > [role="button"]:focus 
+.heading-button:hover,
+.heading-button:focus
 {
   color: hsl(43, 47.7%, 66.7%);
 }
 
-.department-heading--selected {
+.heading-button--toggled {
   color: hsl(43, 47.7%, 66.7%);
   font-size: 1.25rem;
   margin-top: 4rem;
 }
 
-.department:first-child > .department-heading--selected {
+.department:first-child .heading-button--toggled {
   margin-top: 0;
 }
 
-.department-courses {
+.course-list {
   padding-left: 0;
   color: #FFF;
   list-style: none;
@@ -72,12 +77,9 @@ legend {
   visibility: hidden;
 }
 
-.department-courses--open {
+.course-list--open {
   margin-bottom: 4rem;
   visibility: visible;
-}
-
-.course-item {
 }
 
 .course {
@@ -88,7 +90,7 @@ legend {
 }
 
 .course:hover,
-.course-focus
+.course--focused
 {
   transform: scale(1.015625);
   background-color: hsl(201, 77.9%, 28.7%);
@@ -97,7 +99,7 @@ legend {
   transition: all 0.2s ease;
 }
 
-.course-selected
+.course--selected
 {
   color: hsl(201, 77.9%, 28.7%);
   box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.1);
@@ -105,15 +107,15 @@ legend {
   transition: all 0.2s ease;
 }
 
-.course-selected:hover,
-.course-selected-focus
+.course--selected:hover,
+.course--selected--focused
 {
   color: hsl(201, 77.9%, 28.7%);
   background-color: hsl(43, 47.7%, 73.35%);
   transition: all 0.2s ease;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"][name="courses"] {
   width: 1.5rem;
   margin: 0 0.5rem;
   flex-shrink: 0;
@@ -123,14 +125,14 @@ label {
   cursor: pointer;
 }
 
-.course-title {
+.course__title {
   font: 1rem "Open Sans", Helvetica, sans-serif;
   font-weight: inherit;
   flex-basis: 16rem;
   flex-grow: 1;
 }
 
-.course-id {
+.course__id {
   font: 0.75rem "Open Sans", Helvetica, sans-serif;
   font-weight: inherit;
   flex-basis: 3rem;
@@ -138,16 +140,16 @@ label {
   margin-left: 0.5rem;
 }
 
-.course-department {
+.course__id__department {
   display: none;
 }
 
 @media (min-width: 481px) {
-  .course-department {
+  .course__id__department {
     display: initial;
   }
 
-  .course-id {
+  .course__id {
     flex-basis: 5rem;
   }
 }
