@@ -32,7 +32,7 @@ def main():
     sections_by_course = {
         'courses': [
             # course_sections is an itertools group which is a generator (of section elements)
-            select_fields(course_sections.peek(),
+            select_fields(peekable(course_sections).peek(),
                 'departmentCode',
                 'courseNumber',
                 'title',
@@ -54,7 +54,7 @@ def main():
                 ])
             )
             for cid, course_sections
-            in peekable(itertools.groupby(sample_sections, key=course_id))
+            in itertools.groupby(sample_sections, key=course_id)
         ]
     }
 

@@ -17,11 +17,9 @@
         {
           "CRN": "30023",
           "section": "02D",
-          "days": [
-            4
-          ],
-          "startTime": 930,
-          "endTime": 980,
+          "days": "F",
+          "startTime": "3:30 PM",
+          "endTime": "4:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -30,11 +28,9 @@
         {
           "CRN": "30024",
           "section": "03D",
-          "days": [
-            4
-          ],
-          "startTime": 990,
-          "endTime": 1040,
+          "days": "F",
+          "startTime": "4:30 PM",
+          "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -43,11 +39,9 @@
         {
           "CRN": "30025",
           "section": "04D",
-          "days": [
-            1
-          ],
-          "startTime": 750,
-          "endTime": 800,
+          "days": "T",
+          "startTime": "12:30 PM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -56,11 +50,9 @@
         {
           "CRN": "30026",
           "section": "05D",
-          "days": [
-            1
-          ],
-          "startTime": 930,
-          "endTime": 980,
+          "days": "T",
+          "startTime": "3:30 PM",
+          "endTime": "4:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -69,11 +61,9 @@
         {
           "CRN": "30027",
           "section": "06D",
-          "days": [
-            1
-          ],
-          "startTime": 990,
-          "endTime": 1040,
+          "days": "T",
+          "startTime": "4:30 PM",
+          "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -82,11 +72,9 @@
         {
           "CRN": "30531",
           "section": "07D",
-          "days": [
-            2
-          ],
-          "startTime": 810,
-          "endTime": 860,
+          "days": "W",
+          "startTime": "1:30 PM",
+          "endTime": "2:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -95,11 +83,9 @@
         {
           "CRN": "30532",
           "section": "08D",
-          "days": [
-            2
-          ],
-          "startTime": 870,
-          "endTime": 920,
+          "days": "W",
+          "startTime": "2:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -108,11 +94,9 @@
         {
           "CRN": "30794",
           "section": "09D",
-          "days": [
-            2
-          ],
-          "startTime": 930,
-          "endTime": 980,
+          "days": "W",
+          "startTime": "3:30 PM",
+          "endTime": "4:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -121,11 +105,9 @@
         {
           "CRN": "30948",
           "section": "10D",
-          "days": [
-            2
-          ],
-          "startTime": 1230,
-          "endTime": 1280,
+          "days": "W",
+          "startTime": "8:30 PM",
+          "endTime": "9:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -134,11 +116,9 @@
         {
           "CRN": "35578",
           "section": "11D",
-          "days": [
-            4
-          ],
-          "startTime": 870,
-          "endTime": 920,
+          "days": "F",
+          "startTime": "2:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -147,11 +127,9 @@
         {
           "CRN": "35657",
           "section": "12D",
-          "days": [
-            4
-          ],
-          "startTime": 810,
-          "endTime": 860,
+          "days": "F",
+          "startTime": "1:30 PM",
+          "endTime": "2:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -160,11 +138,9 @@
         {
           "CRN": "36288",
           "section": "13D",
-          "days": [
-            0
-          ],
-          "startTime": 750,
-          "endTime": 800,
+          "days": "M",
+          "startTime": "12:30 PM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -173,11 +149,9 @@
         {
           "CRN": "36289",
           "section": "14D",
-          "days": [
-            0
-          ],
-          "startTime": 870,
-          "endTime": 920,
+          "days": "M",
+          "startTime": "2:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -186,11 +160,9 @@
         {
           "CRN": "36290",
           "section": "15D",
-          "days": [
-            0
-          ],
-          "startTime": 930,
-          "endTime": 980,
+          "days": "M",
+          "startTime": "3:30 PM",
+          "endTime": "4:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -199,11 +171,9 @@
         {
           "CRN": "36291",
           "section": "16D",
-          "days": [
-            0
-          ],
-          "startTime": 990,
-          "endTime": 1040,
+          "days": "M",
+          "startTime": "4:30 PM",
+          "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -212,13 +182,9 @@
         {
           "CRN": "30028",
           "section": "20",
-          "days": [
-            0,
-            2,
-            4
-          ],
-          "startTime": 810,
-          "endTime": 860,
+          "days": "MWF",
+          "startTime": "1:30 PM",
+          "endTime": "2:20 PM",
           "instructor": "Saha, Ramendra / McTavish, Emily Jane / Beaster-Jones, Laura",
           "maxSeats": 300,
           "takenSeats": 300,
@@ -227,11 +193,9 @@
         {
           "CRN": "30029",
           "section": "21D",
-          "days": [
-            3
-          ],
-          "startTime": 450,
-          "endTime": 500,
+          "days": "R",
+          "startTime": "7:30 AM",
+          "endTime": "8:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -240,11 +204,9 @@
         {
           "CRN": "30030",
           "section": "22D",
-          "days": [
-            3
-          ],
-          "startTime": 510,
-          "endTime": 560,
+          "days": "R",
+          "startTime": "8:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -253,11 +215,9 @@
         {
           "CRN": "30031",
           "section": "23D",
-          "days": [
-            3
-          ],
-          "startTime": 570,
-          "endTime": 620,
+          "days": "R",
+          "startTime": "9:30 AM",
+          "endTime": "10:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -266,11 +226,9 @@
         {
           "CRN": "30032",
           "section": "24D",
-          "days": [
-            4
-          ],
-          "startTime": 630,
-          "endTime": 680,
+          "days": "F",
+          "startTime": "10:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -279,11 +237,9 @@
         {
           "CRN": "30033",
           "section": "25D",
-          "days": [
-            4
-          ],
-          "startTime": 750,
-          "endTime": 800,
+          "days": "F",
+          "startTime": "12:30 PM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -292,11 +248,9 @@
         {
           "CRN": "30034",
           "section": "26D",
-          "days": [
-            3
-          ],
-          "startTime": 690,
-          "endTime": 740,
+          "days": "R",
+          "startTime": "11:30 AM",
+          "endTime": "12:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -305,11 +259,9 @@
         {
           "CRN": "30533",
           "section": "27D",
-          "days": [
-            0
-          ],
-          "startTime": 1110,
-          "endTime": 1160,
+          "days": "M",
+          "startTime": "6:30 PM",
+          "endTime": "7:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -318,11 +270,9 @@
         {
           "CRN": "30534",
           "section": "28D",
-          "days": [
-            0
-          ],
-          "startTime": 1050,
-          "endTime": 1100,
+          "days": "M",
+          "startTime": "5:30 PM",
+          "endTime": "6:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -331,11 +281,9 @@
         {
           "CRN": "30949",
           "section": "29D",
-          "days": [
-            0
-          ],
-          "startTime": 1110,
-          "endTime": 1160,
+          "days": "M",
+          "startTime": "6:30 PM",
+          "endTime": "7:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -344,11 +292,9 @@
         {
           "CRN": "36473",
           "section": "30D",
-          "days": [
-            1
-          ],
-          "startTime": 1050,
-          "endTime": 1100,
+          "days": "T",
+          "startTime": "5:30 PM",
+          "endTime": "6:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -357,11 +303,9 @@
         {
           "CRN": "36474",
           "section": "31D",
-          "days": [
-            2
-          ],
-          "startTime": 570,
-          "endTime": 620,
+          "days": "W",
+          "startTime": "9:30 AM",
+          "endTime": "10:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -370,11 +314,9 @@
         {
           "CRN": "36475",
           "section": "32D",
-          "days": [
-            2
-          ],
-          "startTime": 630,
-          "endTime": 680,
+          "days": "W",
+          "startTime": "10:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -383,11 +325,9 @@
         {
           "CRN": "36476",
           "section": "33D",
-          "days": [
-            0
-          ],
-          "startTime": 750,
-          "endTime": 800,
+          "days": "M",
+          "startTime": "12:30 PM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -396,11 +336,9 @@
         {
           "CRN": "36477",
           "section": "34D",
-          "days": [
-            2
-          ],
-          "startTime": 1050,
-          "endTime": 1100,
+          "days": "W",
+          "startTime": "5:30 PM",
+          "endTime": "6:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -409,11 +347,9 @@
         {
           "CRN": "36478",
           "section": "35D",
-          "days": [
-            4
-          ],
-          "startTime": 690,
-          "endTime": 740,
+          "days": "F",
+          "startTime": "11:30 AM",
+          "endTime": "12:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -433,12 +369,9 @@
         {
           "CRN": "30364",
           "section": "02L",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 450,
-          "endTime": 620,
+          "days": "TR",
+          "startTime": "7:30 AM",
+          "endTime": "10:20 AM",
           "instructor": "Pandey, Laxmi",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -447,12 +380,9 @@
         {
           "CRN": "30365",
           "section": "03L",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 630,
-          "endTime": 800,
+          "days": "TR",
+          "startTime": "10:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Pandey, Laxmi",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -461,12 +391,9 @@
         {
           "CRN": "30366",
           "section": "04L",
-          "days": [
-            2,
-            4
-          ],
-          "startTime": 450,
-          "endTime": 620,
+          "days": "WF",
+          "startTime": "7:30 AM",
+          "endTime": "10:20 AM",
           "instructor": "Dube, Tafadzwa",
           "maxSeats": 30,
           "takenSeats": 27,
@@ -475,12 +402,9 @@
         {
           "CRN": "36098",
           "section": "10",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 570,
-          "endTime": 620,
+          "days": "MW",
+          "startTime": "9:30 AM",
+          "endTime": "10:20 AM",
           "instructor": "Chandrasekhar, Santosh",
           "maxSeats": 90,
           "takenSeats": 88,
@@ -489,12 +413,9 @@
         {
           "CRN": "33366",
           "section": "11L",
-          "days": [
-            2,
-            4
-          ],
-          "startTime": 630,
-          "endTime": 800,
+          "days": "WF",
+          "startTime": "10:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Dube, Tafadzwa",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -503,12 +424,9 @@
         {
           "CRN": "34505",
           "section": "12L",
-          "days": [
-            2,
-            4
-          ],
-          "startTime": 810,
-          "endTime": 980,
+          "days": "WF",
+          "startTime": "1:30 PM",
+          "endTime": "4:20 PM",
           "instructor": "Xiao, Taihong",
           "maxSeats": 30,
           "takenSeats": 28,
@@ -517,12 +435,9 @@
         {
           "CRN": "34878",
           "section": "13L",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 810,
-          "endTime": 980,
+          "days": "TR",
+          "startTime": "1:30 PM",
+          "endTime": "4:20 PM",
           "instructor": "Xiao, Taihong",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -542,11 +457,9 @@
         {
           "CRN": "30349",
           "section": "02D",
-          "days": [
-            4
-          ],
-          "startTime": 450,
-          "endTime": 500,
+          "days": "F",
+          "startTime": "7:30 AM",
+          "endTime": "8:20 AM",
           "instructor": "Staff",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -555,11 +468,9 @@
         {
           "CRN": "30350",
           "section": "03D",
-          "days": [
-            4
-          ],
-          "startTime": 510,
-          "endTime": 560,
+          "days": "F",
+          "startTime": "8:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -568,11 +479,9 @@
         {
           "CRN": "30351",
           "section": "04D",
-          "days": [
-            4
-          ],
-          "startTime": 570,
-          "endTime": 620,
+          "days": "F",
+          "startTime": "9:30 AM",
+          "endTime": "10:20 AM",
           "instructor": "Staff",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -581,11 +490,9 @@
         {
           "CRN": "30352",
           "section": "05D",
-          "days": [
-            0
-          ],
-          "startTime": 630,
-          "endTime": 680,
+          "days": "M",
+          "startTime": "10:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -594,24 +501,20 @@
         {
           "CRN": "30403",
           "section": "06D",
-          "days": [
-            4
-          ],
-          "startTime": 690,
-          "endTime": 740,
+          "days": "F",
+          "startTime": "11:30 AM",
+          "endTime": "12:20 PM",
           "instructor": "Staff",
           "maxSeats": 30,
-          "takenSeats": 30,
-          "freeSeats": 0
+          "takenSeats": 29,
+          "freeSeats": 1
         },
         {
           "CRN": "30404",
           "section": "07D",
-          "days": [
-            0
-          ],
-          "startTime": 510,
-          "endTime": 560,
+          "days": "M",
+          "startTime": "8:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -620,11 +523,9 @@
         {
           "CRN": "30469",
           "section": "08D",
-          "days": [
-            0
-          ],
-          "startTime": 690,
-          "endTime": 740,
+          "days": "M",
+          "startTime": "11:30 AM",
+          "endTime": "12:20 PM",
           "instructor": "Staff",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -633,11 +534,9 @@
         {
           "CRN": "34559",
           "section": "09D",
-          "days": [
-            0
-          ],
-          "startTime": 570,
-          "endTime": 620,
+          "days": "M",
+          "startTime": "9:30 AM",
+          "endTime": "10:20 AM",
           "instructor": "Staff",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -646,11 +545,9 @@
         {
           "CRN": "30996",
           "section": "10D",
-          "days": [
-            0
-          ],
-          "startTime": 750,
-          "endTime": 800,
+          "days": "M",
+          "startTime": "12:30 PM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -659,11 +556,9 @@
         {
           "CRN": "34560",
           "section": "11D",
-          "days": [
-            4
-          ],
-          "startTime": 630,
-          "endTime": 680,
+          "days": "F",
+          "startTime": "10:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 30,
           "takenSeats": 30,
@@ -681,12 +576,9 @@
         {
           "CRN": "30084",
           "section": "02",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 1170,
-          "endTime": 1280,
+          "days": "MW",
+          "startTime": "7:30 PM",
+          "endTime": "9:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 9,
@@ -695,12 +587,9 @@
         {
           "CRN": "30085",
           "section": "03",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 450,
-          "endTime": 560,
+          "days": "TR",
+          "startTime": "7:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 17,
@@ -709,12 +598,9 @@
         {
           "CRN": "30086",
           "section": "04",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 570,
-          "endTime": 680,
+          "days": "TR",
+          "startTime": "9:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -723,12 +609,9 @@
         {
           "CRN": "30087",
           "section": "05",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 690,
-          "endTime": 800,
+          "days": "TR",
+          "startTime": "11:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -737,12 +620,9 @@
         {
           "CRN": "30088",
           "section": "06",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 810,
-          "endTime": 920,
+          "days": "TR",
+          "startTime": "1:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -751,12 +631,9 @@
         {
           "CRN": "30089",
           "section": "07",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 930,
-          "endTime": 1040,
+          "days": "TR",
+          "startTime": "3:30 PM",
+          "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -765,12 +642,9 @@
         {
           "CRN": "30262",
           "section": "10",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 450,
-          "endTime": 560,
+          "days": "MW",
+          "startTime": "7:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 19,
@@ -779,12 +653,9 @@
         {
           "CRN": "30264",
           "section": "12",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 690,
-          "endTime": 800,
+          "days": "MW",
+          "startTime": "11:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -793,12 +664,9 @@
         {
           "CRN": "30265",
           "section": "13",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 810,
-          "endTime": 920,
+          "days": "MW",
+          "startTime": "1:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -807,26 +675,20 @@
         {
           "CRN": "30267",
           "section": "15",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 1050,
-          "endTime": 1160,
+          "days": "MW",
+          "startTime": "5:30 PM",
+          "endTime": "7:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
-          "takenSeats": 5,
-          "freeSeats": 15
+          "takenSeats": 6,
+          "freeSeats": 14
         },
         {
           "CRN": "30268",
           "section": "16",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 1170,
-          "endTime": 1280,
+          "days": "MW",
+          "startTime": "7:30 PM",
+          "endTime": "9:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 0,
@@ -835,12 +697,9 @@
         {
           "CRN": "30269",
           "section": "17",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 450,
-          "endTime": 560,
+          "days": "TR",
+          "startTime": "7:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 4,
@@ -849,12 +708,9 @@
         {
           "CRN": "30270",
           "section": "18",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 570,
-          "endTime": 680,
+          "days": "TR",
+          "startTime": "9:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -863,12 +719,9 @@
         {
           "CRN": "30271",
           "section": "19",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 570,
-          "endTime": 680,
+          "days": "MW",
+          "startTime": "9:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -877,12 +730,9 @@
         {
           "CRN": "30272",
           "section": "20",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 810,
-          "endTime": 920,
+          "days": "TR",
+          "startTime": "1:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -891,12 +741,9 @@
         {
           "CRN": "30274",
           "section": "22",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 1050,
-          "endTime": 1160,
+          "days": "TR",
+          "startTime": "5:30 PM",
+          "endTime": "7:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 18,
@@ -905,12 +752,9 @@
         {
           "CRN": "31006",
           "section": "24",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 450,
-          "endTime": 560,
+          "days": "MW",
+          "startTime": "7:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 1,
@@ -919,12 +763,9 @@
         {
           "CRN": "31009",
           "section": "25",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 570,
-          "endTime": 680,
+          "days": "MW",
+          "startTime": "9:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -933,12 +774,9 @@
         {
           "CRN": "31027",
           "section": "26",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 690,
-          "endTime": 800,
+          "days": "TR",
+          "startTime": "11:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 20,
@@ -947,12 +785,9 @@
         {
           "CRN": "31039",
           "section": "28",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 930,
-          "endTime": 1040,
+          "days": "MW",
+          "startTime": "3:30 PM",
+          "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 14,
@@ -961,12 +796,9 @@
         {
           "CRN": "33364",
           "section": "29",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 450,
-          "endTime": 560,
+          "days": "MW",
+          "startTime": "7:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 3,
@@ -975,26 +807,20 @@
         {
           "CRN": "34376",
           "section": "31",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 690,
-          "endTime": 800,
+          "days": "TR",
+          "startTime": "11:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
-          "takenSeats": 17,
-          "freeSeats": 3
+          "takenSeats": 18,
+          "freeSeats": 2
         },
         {
           "CRN": "34379",
           "section": "34",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 450,
-          "endTime": 560,
+          "days": "TR",
+          "startTime": "7:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 0,
@@ -1003,12 +829,9 @@
         {
           "CRN": "34380",
           "section": "35",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 810,
-          "endTime": 920,
+          "days": "MW",
+          "startTime": "1:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 14,
@@ -1017,12 +840,9 @@
         {
           "CRN": "34382",
           "section": "37",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 690,
-          "endTime": 800,
+          "days": "TR",
+          "startTime": "11:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 3,
@@ -1031,12 +851,9 @@
         {
           "CRN": "34510",
           "section": "40",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 690,
-          "endTime": 800,
+          "days": "TR",
+          "startTime": "11:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 3,
@@ -1045,12 +862,9 @@
         {
           "CRN": "34511",
           "section": "41",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 810,
-          "endTime": 920,
+          "days": "TR",
+          "startTime": "1:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 14,
@@ -1059,12 +873,9 @@
         {
           "CRN": "34512",
           "section": "42",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 930,
-          "endTime": 1040,
+          "days": "TR",
+          "startTime": "3:30 PM",
+          "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 7,
@@ -1073,12 +884,9 @@
         {
           "CRN": "34648",
           "section": "43",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 930,
-          "endTime": 1040,
+          "days": "TR",
+          "startTime": "3:30 PM",
+          "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 6,
@@ -1087,12 +895,9 @@
         {
           "CRN": "34650",
           "section": "45",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 1170,
-          "endTime": 1280,
+          "days": "TR",
+          "startTime": "7:30 PM",
+          "endTime": "9:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 2,
@@ -1101,12 +906,9 @@
         {
           "CRN": "35082",
           "section": "47",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 810,
-          "endTime": 920,
+          "days": "MW",
+          "startTime": "1:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 6,
@@ -1115,12 +917,9 @@
         {
           "CRN": "35083",
           "section": "48",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 1050,
-          "endTime": 1160,
+          "days": "TR",
+          "startTime": "5:30 PM",
+          "endTime": "7:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 1,
@@ -1129,12 +928,9 @@
         {
           "CRN": "35084",
           "section": "49",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 1170,
-          "endTime": 1280,
+          "days": "TR",
+          "startTime": "7:30 PM",
+          "endTime": "9:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 2,
@@ -1143,26 +939,20 @@
         {
           "CRN": "35085",
           "section": "50",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 570,
-          "endTime": 680,
+          "days": "MW",
+          "startTime": "9:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
-          "takenSeats": 3,
-          "freeSeats": 17
+          "takenSeats": 4,
+          "freeSeats": 16
         },
         {
           "CRN": "35086",
           "section": "51",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 690,
-          "endTime": 800,
+          "days": "MW",
+          "startTime": "11:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 12,
@@ -1171,12 +961,9 @@
         {
           "CRN": "36402",
           "section": "52",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 450,
-          "endTime": 560,
+          "days": "MW",
+          "startTime": "7:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 1,
@@ -1185,12 +972,9 @@
         {
           "CRN": "36403",
           "section": "53",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 570,
-          "endTime": 680,
+          "days": "MW",
+          "startTime": "9:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 9,
@@ -1199,12 +983,9 @@
         {
           "CRN": "36404",
           "section": "54",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 690,
-          "endTime": 800,
+          "days": "MW",
+          "startTime": "11:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 3,
@@ -1213,12 +994,9 @@
         {
           "CRN": "36405",
           "section": "55",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 810,
-          "endTime": 920,
+          "days": "MW",
+          "startTime": "1:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 2,
@@ -1227,12 +1005,9 @@
         {
           "CRN": "36406",
           "section": "56",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 930,
-          "endTime": 1040,
+          "days": "MW",
+          "startTime": "3:30 PM",
+          "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 5,
@@ -1241,12 +1016,9 @@
         {
           "CRN": "36408",
           "section": "58",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 1170,
-          "endTime": 1280,
+          "days": "MW",
+          "startTime": "7:30 PM",
+          "endTime": "9:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 1,
@@ -1255,12 +1027,9 @@
         {
           "CRN": "36409",
           "section": "59",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 450,
-          "endTime": 560,
+          "days": "TR",
+          "startTime": "7:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 1,
@@ -1269,12 +1038,9 @@
         {
           "CRN": "36410",
           "section": "60",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 570,
-          "endTime": 680,
+          "days": "TR",
+          "startTime": "9:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 12,
@@ -1283,12 +1049,9 @@
         {
           "CRN": "36411",
           "section": "61",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 690,
-          "endTime": 800,
+          "days": "TR",
+          "startTime": "11:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 4,
@@ -1297,12 +1060,9 @@
         {
           "CRN": "36412",
           "section": "62",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 810,
-          "endTime": 920,
+          "days": "TR",
+          "startTime": "1:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 5,
@@ -1311,12 +1071,9 @@
         {
           "CRN": "36413",
           "section": "63",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 930,
-          "endTime": 1040,
+          "days": "TR",
+          "startTime": "3:30 PM",
+          "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 10,
@@ -1325,12 +1082,9 @@
         {
           "CRN": "36414",
           "section": "64",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 1050,
-          "endTime": 1160,
+          "days": "TR",
+          "startTime": "5:30 PM",
+          "endTime": "7:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 3,
@@ -1339,12 +1093,9 @@
         {
           "CRN": "36416",
           "section": "66",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 450,
-          "endTime": 560,
+          "days": "MW",
+          "startTime": "7:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 1,
@@ -1353,12 +1104,9 @@
         {
           "CRN": "36417",
           "section": "67",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 570,
-          "endTime": 680,
+          "days": "MW",
+          "startTime": "9:30 AM",
+          "endTime": "11:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 4,
@@ -1367,12 +1115,9 @@
         {
           "CRN": "36418",
           "section": "68",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 690,
-          "endTime": 800,
+          "days": "MW",
+          "startTime": "11:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 9,
@@ -1381,12 +1126,9 @@
         {
           "CRN": "36419",
           "section": "69",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 810,
-          "endTime": 920,
+          "days": "MW",
+          "startTime": "1:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 7,
@@ -1395,12 +1137,9 @@
         {
           "CRN": "36420",
           "section": "70",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 930,
-          "endTime": 1040,
+          "days": "MW",
+          "startTime": "3:30 PM",
+          "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 3,
@@ -1409,12 +1148,9 @@
         {
           "CRN": "36421",
           "section": "71",
-          "days": [
-            0,
-            2
-          ],
-          "startTime": 1050,
-          "endTime": 1160,
+          "days": "MW",
+          "startTime": "5:30 PM",
+          "endTime": "7:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 0,
@@ -1423,12 +1159,9 @@
         {
           "CRN": "36423",
           "section": "73",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 450,
-          "endTime": 560,
+          "days": "TR",
+          "startTime": "7:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 2,
@@ -1437,12 +1170,9 @@
         {
           "CRN": "36425",
           "section": "75",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 690,
-          "endTime": 800,
+          "days": "TR",
+          "startTime": "11:30 AM",
+          "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 5,
@@ -1451,12 +1181,9 @@
         {
           "CRN": "36426",
           "section": "76",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 810,
-          "endTime": 920,
+          "days": "TR",
+          "startTime": "1:30 PM",
+          "endTime": "3:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 2,
@@ -1465,12 +1192,9 @@
         {
           "CRN": "36431",
           "section": "81",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 930,
-          "endTime": 1040,
+          "days": "TR",
+          "startTime": "3:30 PM",
+          "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 4,
@@ -1479,12 +1203,9 @@
         {
           "CRN": "36432",
           "section": "82",
-          "days": [
-            1,
-            3
-          ],
-          "startTime": 450,
-          "endTime": 560,
+          "days": "TR",
+          "startTime": "7:30 AM",
+          "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
           "takenSeats": 0,

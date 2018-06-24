@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 pystache = "*"
-ucmscraper = "==1.4.1"
+ucmscraper = "*"
 more-itertools = "*"
 
 [dev-packages]
