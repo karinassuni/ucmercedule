@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{> ../head }}
+
+<body>
+  {{#courses}}
+  <table>
+    <caption>
+      <span>{{title}}</span>,
+      <span>{{departmentCode}}</span>
+      <span>{{courseNumber}}</span>
+      ({{units}})
+    </caption>
+    <thead>
+      <th>CRN</th>
+      <th>Section ID</th>
+      <th>Days</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Instructor</th>
+      <th>Max</th>
+      <th>Taken</th>
+      <th>Free</th>
+    </thead>
+    <tbody>
+      {{#sections}}
+      <tr>
+        <td>{{CRN}}</td>
+        <td>{{section}}</td>
+        <td>{{days}}</td>
+        <td>{{startTime}}</td>
+        <td>{{endTime}}</td>
+        <td>{{instructor}}</td>
+        <td>{{maxSeats}}</td>
+        <td>{{takenSeats}}</td>
+        <td>{{freeSeats}}</td>
+      </tr>
+      {{/sections}}
+    </tbody>
+  </table>
+  {{/courses}}
+  <script type="text/javascript" src="Schedule/Schedule.js"></script>
+</body>
+
+</html>

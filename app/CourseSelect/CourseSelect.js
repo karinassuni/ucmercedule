@@ -153,10 +153,8 @@ DepartmentAccordion.prototype.toggleHandler = function() {
 DepartmentAccordion.prototype.onKeydown = function(event) {
   switch (event.keyCode) {
     case 13: // Enter
-      if (event.target.className === "heading-button") {
-        this.toggleHandler.call(this);
-        event.preventDefault();
-      }
+      event.preventDefault();
+      document.getElementsByTagName("form")[0].submit();
       break;
     case 32: // Space
       if (event.target.tagName !== "INPUT") {

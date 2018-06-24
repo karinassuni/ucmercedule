@@ -8,7 +8,7 @@ gulp.task("serve", ["build"], () => {
   browserSync.init({
     server: {
       baseDir: "dist",
-      index: "CourseSelect.html"
+      index: "Schedule.html"
     }
   });
 
@@ -18,14 +18,23 @@ gulp.task("serve", ["build"], () => {
   gulp.watch("dist/*.html", browserSync.reload);
 });
 
-gulp.task("template", ["templateCourseSelect"]);
+gulp.task("template", ["templateCourseSelect", "templateSchedule"]);
 
 gulp.task("templateCourseSelect", () => {
   // head.mustache automatically searched for at runtime based on path of partial
   return gulp
     .src("app/CourseSelect/CourseSelect.mustache", { base: "app/CourseSelect" })
-    .pipe(mustache("app/CourseSelect/Fall_2018_Courses_View.json"))
+    .pipe(mustache("app/CourseSelect/Fall_2018_Courses_View.json")) // just for development
     .pipe(rename("CourseSelect.html"))
+    .pipe(gulp.dest("dist/"));
+});
+
+gulp.task("templateSchedule", () => {
+  // head.mustache automatically searched for at runtime based on path of partial
+  return gulp
+    .src("app/Schedule/Schedule.mustache")
+    .pipe(mustache("app/Schedule/sample_schedule_courses.json")) // just for development
+    .pipe(rename("schedule.html"))
     .pipe(gulp.dest("dist/"));
 });
 
