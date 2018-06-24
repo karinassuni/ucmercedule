@@ -29,10 +29,11 @@ def main():
     schedule = ucmscraper.Schedule.fetch_latest()
     sample_sections = filter(is_sample, schedule.sections)
 
-    sections_by_course = {
-        'courses': [
-            # course_sections is an itertools group which is a generator (of section elements)
-            select_fields(peekable(course_sections).peek(),
+    sections_by_course = {'courses': []}
+    for _, course_sections in itertools.groupby(sample_sections, key=course_id):
+        course = peekable(course_sections)
+        sections_by_course['courses'].append(
+            select_fields(course.peek(),
                 'departmentCode',
                 'courseNumber',
                 'title',
@@ -50,13 +51,10 @@ def main():
                         'takenSeats',
                         'freeSeats',
                     )
-                    for section in course_sections
+                    for section in course
                 ])
             )
-            for cid, course_sections
-            in itertools.groupby(sample_sections, key=course_id)
-        ]
-    }
+        )
 
     with open('sample_schedule_courses.json', 'w') as f:
         json.dump(sections_by_course, f)

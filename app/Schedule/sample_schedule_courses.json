@@ -15,6 +15,17 @@
       "units": 4,
       "sections": [
         {
+          "CRN": "30022",
+          "section": "01",
+          "days": "MWF",
+          "startTime": "11:30 AM",
+          "endTime": "12:20 PM",
+          "instructor": "Saha, Ramendra / McTavish, Emily Jane / Beaster-Jones, Laura",
+          "maxSeats": 300,
+          "takenSeats": 300,
+          "freeSeats": 0
+        },
+        {
           "CRN": "30023",
           "section": "02D",
           "days": "F",
@@ -367,6 +378,17 @@
       "units": 4,
       "sections": [
         {
+          "CRN": "30363",
+          "section": "01",
+          "days": "MW",
+          "startTime": "2:30 PM",
+          "endTime": "3:20 PM",
+          "instructor": "Chandrasekhar, Santosh",
+          "maxSeats": 90,
+          "takenSeats": 87,
+          "freeSeats": 3
+        },
+        {
           "CRN": "30364",
           "section": "02L",
           "days": "TR",
@@ -455,6 +477,17 @@
       "units": 4,
       "sections": [
         {
+          "CRN": "30348",
+          "section": "01",
+          "days": "TR",
+          "startTime": "9:30 AM",
+          "endTime": "10:45 AM",
+          "instructor": "Dodson, Kyle",
+          "maxSeats": 300,
+          "takenSeats": 300,
+          "freeSeats": 0
+        },
+        {
           "CRN": "30349",
           "section": "02D",
           "days": "F",
@@ -506,8 +539,8 @@
           "endTime": "12:20 PM",
           "instructor": "Staff",
           "maxSeats": 30,
-          "takenSeats": 29,
-          "freeSeats": 1
+          "takenSeats": 30,
+          "freeSeats": 0
         },
         {
           "CRN": "30404",
@@ -574,6 +607,17 @@
       "units": 4,
       "sections": [
         {
+          "CRN": "30083",
+          "section": "01",
+          "days": "MW",
+          "startTime": "5:30 PM",
+          "endTime": "7:20 PM",
+          "instructor": "Staff",
+          "maxSeats": 20,
+          "takenSeats": 20,
+          "freeSeats": 0
+        },
+        {
           "CRN": "30084",
           "section": "02",
           "days": "MW",
@@ -592,8 +636,8 @@
           "endTime": "9:20 AM",
           "instructor": "Staff",
           "maxSeats": 20,
-          "takenSeats": 17,
-          "freeSeats": 3
+          "takenSeats": 18,
+          "freeSeats": 2
         },
         {
           "CRN": "30086",
@@ -790,8 +834,8 @@
           "endTime": "5:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
-          "takenSeats": 14,
-          "freeSeats": 6
+          "takenSeats": 13,
+          "freeSeats": 7
         },
         {
           "CRN": "33364",
@@ -988,8 +1032,8 @@
           "endTime": "1:20 PM",
           "instructor": "Staff",
           "maxSeats": 20,
-          "takenSeats": 3,
-          "freeSeats": 17
+          "takenSeats": 4,
+          "freeSeats": 16
         },
         {
           "CRN": "36405",
