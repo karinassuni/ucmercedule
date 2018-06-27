@@ -1,40 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-
-{{> ../head }}
-
-<body>
-  <form method="GET" action="schedule.html">
-    <fieldset>
-      <legend>Choose your courses</legend>
-      <ul class="department-list">
-        {{#departments}}
-        <li class="department">
-          <h1>
-            <span class="heading-button" role="button" aria-controls="{{code}}" aria-expanded="false" tabindex="0">
-              {{name}} ({{code}})
-            </span>
-          </h1>
-          <ul class="course-list" id="{{code}}">
-            {{#courses}}
-            <li>
-              <label class="course" for="{{code}}-{{courseNumber}}">
-                <input type="checkbox" name="courses" id="{{code}}-{{courseNumber}}" value="{{code}}-{{courseNumber}}">
-                <dt class="course__title">{{title}}</dt>
-                <dd class="course__id">
-                  <span class="course__id__department">{{code}}</span>
-                  <span class="course__id__number">{{courseNumber}}</span>
-                </dd>
-              </label>
-            </li>
-            {{/courses}}
-          </ul>
-        </li>
-        {{/departments}}
-      </ul>
-    </fieldset>
-  </form>
-  <script type="text/javascript" src="CourseSelect/CourseSelect.js"></script>
-</body>
-
-</html>
+<form>
+  <fieldset>
+    <legend>Choose your courses</legend>
+    <ul class="department-list">
+      {{#departments}}
+      <li class="department">
+        <h1 class="department__heading">
+          <span class="department__heading__button" role="button" aria-controls="{{code}}" aria-expanded="false" tabindex="0">
+            {{name}} ({{code}})
+          </span>
+        </h1>
+        <ul class="course-list" id="{{code}}">
+          {{#courses}}
+          <li>
+            <label class="course" for="{{code}}-{{courseNumber}}">
+              <input type="checkbox" name="courses" id="{{code}}-{{courseNumber}}" value="{{code}}-{{courseNumber}}">
+              <dt class="course__title">{{title}}</dt>
+              <dd class="course__id">
+                <span class="course__id__department">{{code}}</span>
+                <span class="course__id__number">{{courseNumber}}</span>
+              </dd>
+            </label>
+          </li>
+          {{/courses}}
+        </ul>
+      </li>
+      {{/departments}}
+    </ul>
+  </fieldset>
+</form>

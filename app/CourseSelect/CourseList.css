@@ -1,70 +1,3 @@
-:root {
-  font-size: 105%;
-  margin: 0;
-  background-color: hsl(201, 77.9%, 26.7%);
-}
-
-form {
-  width: 572px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-fieldset {
-  margin-top: 1rem;
-  border: none;
-}
-
-legend {
-  font: 300 1rem "Open Sans", Helvetica, sans-serif;
-  color: #FFF;
-  width: 100%;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid hsl(201, 77.9%, 32.0%);
-  text-align: center;
-}
-
-.department-list {
-  margin-top: -1rem;
-  list-style: none;
-  padding: 0;
-}
-
-.department {
-  margin-top: 1rem;
-}
-
-h1 {
-  margin: 0;
-}
-
-.heading-button {
-  display: block;
-  font: 600 1rem "Open Sans", Helvetica, sans-serif;
-  color: #FFF;
-  cursor: pointer;
-  margin-bottom: 0.5rem;
-  margin-left: 2.5rem;
-  transition: all 0.15s ease;
-}
-
-.heading-button:hover,
-.heading-button:focus
-{
-  color: hsl(43, 47.7%, 66.7%);
-}
-
-.heading-button--toggled {
-  color: hsl(43, 47.7%, 66.7%);
-  font-size: 1.25rem;
-  margin-top: 4rem;
-}
-
-.department:first-child .heading-button--toggled {
-  margin-top: 0;
-}
-
 .course-list {
   padding-left: 0;
   color: #FFF;
@@ -151,13 +84,5 @@ label {
 
   .course__id {
     flex-basis: 5rem;
-  }
-}
-
-@media (max-width: 590px) {
-  form {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
   }
 }

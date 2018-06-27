@@ -1,8 +1,11 @@
+import "./DepartmentList.css";
+import "./CourseList.css";
+
 function DepartmentAccordion(departmentItem, group) {
   this.group = group;
   this.departmentItem = departmentItem;
   this.headingButton = departmentItem.getElementsByClassName(
-    "heading-button"
+    "department__heading__button"
   )[0];
   this.courseList = departmentItem.getElementsByClassName("course-list")[0];
 
@@ -145,7 +148,7 @@ DepartmentAccordion.prototype.toggleHandler = function() {
     this.headingButton.setAttribute("aria-expanded", "false");
   }
 
-  this.headingButton.classList.toggle("heading-button--toggled");
+  this.headingButton.classList.toggle("department__heading__button--toggled");
 
   this.visible = !this.visible;
 };

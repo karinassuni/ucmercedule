@@ -7,33 +7,27 @@
   {{#courses}}
   <table>
     <caption>
-      <span>{{title}}</span>,
-      <span>{{departmentCode}}</span>
-      <span>{{courseNumber}}</span>
-      ({{units}})
+      <span>{{title}}</span>
+      <span>({{units}})</span>
     </caption>
     <thead>
-      <th>CRN</th>
-      <th>Section ID</th>
-      <th>Days</th>
-      <th>Start</th>
-      <th>End</th>
-      <th>Instructor</th>
-      <th>Max</th>
-      <th>Taken</th>
-      <th>Free</th>
+      <th scope="col">Section</th>
+      <th scope="col">Days</th>
+      <th scope="col">Start</th>
+      <th scope="col">End</th>
+      <th scope="col">Instructor</th>
+      <th scope="col">Max</th>
+      <th scope="col">Free</th>
     </thead>
     <tbody>
       {{#sections}}
       <tr>
-        <td>{{CRN}}</td>
         <td>{{section}}</td>
         <td>{{days}}</td>
         <td>{{startTime}}</td>
         <td>{{endTime}}</td>
         <td>{{instructor}}</td>
         <td>{{maxSeats}}</td>
-        <td>{{takenSeats}}</td>
         <td>{{freeSeats}}</td>
       </tr>
       {{/sections}}
