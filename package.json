@@ -12,18 +12,25 @@
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
     "babel-loader": "^7.1.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "eslint": "^4.14.0",
+    "eslint-plugin-react": "^7.10.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.0",
     "mustache-loader": "^1.4.0",
+    "preact-compat": "^3.18.0",
     "prettier": "^1.9.2",
+    "react-hot-loader": "^4.3.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.12.2",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "preact": "^8.2.9"
+  }
 }

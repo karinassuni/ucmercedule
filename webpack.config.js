@@ -23,8 +23,17 @@ module.exports = {
         test: /\.css$/,
         use: ["style-loader", "css-loader"]
         // use: [MiniCssExtractPlugin.loader, "css-loader"]
-      }
+      },
+      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
     ]
+  },
+  // react-hot-loader references React, but we're using preact so resolve such
+  // references to preact-compat instead
+  // Only use react-hot-loader (and this preact-compat) in development for HMR
+  resolve: {
+    alias: {
+      react: path.resolve(path.join(__dirname, "./node_modules/preact-compat"))
+    }
   },
   plugins: [
     new HtmlWebpackPlugin({
