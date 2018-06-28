@@ -1,6 +1,9 @@
-form { width: 572px;
+form {
+  width: 572px;
   margin-left: auto;
   margin-right: auto;
+
+  color: #FFF;
 }
 
 fieldset {
@@ -9,12 +12,11 @@ fieldset {
 }
 
 legend {
-  font: 300 1rem "Open Sans", Helvetica, sans-serif;
-  color: #FFF;
   width: 100%;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid hsl(201, 77.9%, 32.0%);
+  border-bottom: 0.0625rem solid hsl(201, 77.9%, 32.0%);
+  font: 300 1rem "Open Sans", Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -34,7 +36,7 @@ legend {
 
 .department__heading__button {
   display: block;
-  font: 600 1rem "Open Sans", Helvetica, sans-serif;
+  font: 600 1.2rem "Open Sans", Helvetica, sans-serif;
   color: #FFF;
   cursor: pointer;
   margin-bottom: 0.5rem;
@@ -50,8 +52,7 @@ legend {
 
 .department__heading__button--toggled {
   color: hsl(43, 47.7%, 66.7%);
-  font-size: 1.25rem;
-  margin-top: 4rem;
+  font-size: 1.44rem;
 }
 
 .department:first-child .department__heading__button--toggled {
