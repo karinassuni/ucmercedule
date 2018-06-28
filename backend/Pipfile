@@ -6,10 +6,10 @@ name = "pypi"
 [packages]
 pystache = "*"
 ucmscraper = "*"
-more-itertools = "*"
 
 [dev-packages]
 pylint = "*"
+ipdb = "*"
 
 [requires]
 python_version = "3.6"
