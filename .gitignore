@@ -1,3 +1,2 @@
 node_modules/
-departments_view.json
-department_fieldset.html
+database/*.json

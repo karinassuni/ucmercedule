@@ -12,7 +12,13 @@ Start the Webpack dev server with `npm start` and go to town! Hot module
 reloading (HMR) is set up, so code changes will immediately be reflected in the
 browser.
 
-Course sections are scraped with [ucmscraper](2), written in Python. 
+Python is used for database generation in `database/`. In particular, I scrape
+[UC Merced course schedules](9) with [ucmscraper](2) and structure the data for
+consumption by the Schedule. In production, I plan on hosting section data on
+some database API server to be called by the statically hosted client web app, 
+using the department/course data that I'm currently templating into the HTML.
+Shoutout to [jq](10) for making prototyping the section transformation super
+easy.
 
 I orignally used [Gulp](6) as my build system, with a [browsersync](5) HMR dev
 server. I switched to [Webpack](7) once I knew that I'd be best to build the
@@ -37,3 +43,5 @@ nicer.
 [6]: https://gulpjs.com
 [7]: https://webpack.js.org
 [8]: https://preactjs.com
+[9]: https://mystudentrecord.ucmerced.edu/pls/PROD/xhwschedule.p_selectsubject
+[10]: https://stedolan.github.io/jq/
