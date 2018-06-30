@@ -20,6 +20,8 @@ table.course-table {
 
 .course-caption__cid {
   display: block;
+  font-weight: 400;
+  color: hsl(0, 0.0%, 35.0%);
 }
 
 .course-caption__title {
