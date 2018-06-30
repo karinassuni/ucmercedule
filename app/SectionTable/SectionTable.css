@@ -1,18 +1,53 @@
-table {
-  table-layout: fixed;
-  border: 1px solid hsl(201, 77.9%, 32.0%);
-  border-collapse: collapse;
-  width: 40rem;
+.course-table {
+  width: 37rem;
   font: 300 1rem "Open Sans", Helvetica, sans-serif;
-  /* color: #FFF; */
   margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1rem 1rem 0.5rem 1rem;
+  background-color: hsl(0, 0.0%, 95.0%);
+  color: hsl(0, 0.0%, 25.0%);
+  border-radius: 0.25rem;
+}
+
+.course-table > table {
+  width: inherit;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.course-caption {
+  margin-bottom: 1.0rem;
+  text-align: left;
+  background-color: hsl(0, 0.0%, 95.0%);
+}
+
+.course-caption__cid {
+  display: block;
+  font-size: 1rem;
+}
+
+.course-caption__title {
+  font-size: 1.2rem;
+}
+
+.course-caption__units {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+thead th {
+  color: hsl(201, 77.9%, 26.7%);
+  font-weight: 300;
+  font-size: 0.833rem;
 }
 
 thead th:nth-child(1) {
-  width: 5rem;
+  text-align: left;
+  width: 3.5rem;
 }
 
 thead th:nth-child(2) {
+  text-align: left;
   width: 4rem;
 }
 
@@ -27,25 +62,30 @@ thead th:nth-child(4) {
 }
 
 thead th:nth-child(5) {
-
+  text-align: center;
 }
 
 thead th:nth-child(6) {
   text-align: right;
-  width: 3rem;
+  width: 2.5rem;
 }
 
 thead th:nth-child(7) {
   text-align: right;
-  width: 3rem;
+  width: 2.5rem;
 }
 
-tbody td:nth-child(1) {
-  text-align: left;
+tr {
+  border-top: 1px solid hsl(0, 0.0%, 85.0%);
+  border-bottom: 1px solid hsl(0, 0.0%, 85.0%);
 }
 
-tbody td:nth-child(2) {
-  text-align: left;
+tr:last-child {
+  border-bottom: initial;
+}
+
+td, th {
+  padding: 0.25rem 0;
 }
 
 tbody td:nth-child(3) {
@@ -58,7 +98,6 @@ tbody td:nth-child(4) {
 
 tbody td:nth-child(5) {
   padding-left: 1rem;
-  text-align: left;
 }
 
 tbody td:nth-child(6) {
