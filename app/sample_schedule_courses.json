@@ -15,16 +15,15 @@
     "sections": [
       {
         "CRN": "30022",
-        "section": "01",
+        "section": "55D",
         "activity": "LECT",
-        "days": "MWF",
-        "startTime": "11:30 AM",
+        "days": "MTWRFS",
+        "startTime": "12:30 AM",
         "endTime": "12:20 PM",
-        "instructor":
-          "Saha, Ramendra / McTavish, Emily Jane / Beaster-Jones, Laura",
+        "instructor": "Priyanka, Subramanian",
         "maxSeats": 300,
         "takenSeats": 300,
-        "freeSeats": 0,
+        "freeSeats": 300,
         "supplementary": [
           {
             "CRN": "30023",

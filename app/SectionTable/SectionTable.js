@@ -12,9 +12,11 @@ export default class SectionTable extends Component {
               <table>
                 <caption>
                   <div class="course-caption">
+                    <span class="course-caption__units">
+                      {course.units} {course.units > 1 ? "units" : "unit"}
+                    </span>
                     <span class="course-caption__cid">{cid}</span>
                     <span class="course-caption__title">{course.title}</span>
-                    <span class="course-caption__units">({course.units})</span>
                   </div>
                 </caption>
                 <thead>

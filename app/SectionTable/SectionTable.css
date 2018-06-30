@@ -1,9 +1,8 @@
 .course-table {
-  width: 37rem;
+  width: 42.5rem;
   font: 300 1rem "Open Sans", Helvetica, sans-serif;
   margin: 0 auto;
   margin-top: 2rem;
-  padding: 1rem 1rem 0.5rem 1rem;
   background-color: hsl(0, 0.0%, 95.0%);
   color: hsl(0, 0.0%, 25.0%);
   border-radius: 0.25rem;
@@ -16,9 +15,9 @@
 }
 
 .course-caption {
+  padding: 1.5rem 1.5rem 0rem 1.5rem;
   margin-bottom: 1.0rem;
   text-align: left;
-  background-color: hsl(0, 0.0%, 95.0%);
 }
 
 .course-caption__cid {
@@ -31,8 +30,9 @@
 }
 
 .course-caption__units {
-  font-size: 1.2rem;
-  margin-left: 0.5rem;
+  display: block;
+  float: right;
+  font-size: 0.833rem;
 }
 
 thead th {
@@ -43,36 +43,44 @@ thead th {
 
 thead th:nth-child(1) {
   text-align: left;
-  width: 3.5rem;
+  width: 2.5rem;
+  padding-left: 1.5rem;
+  padding-right: 3.0rem;
 }
 
 thead th:nth-child(2) {
   text-align: left;
-  width: 4rem;
+  width: 2.5rem;
 }
 
 thead th:nth-child(3) {
   text-align: right;
-  width: 5rem;
+  width: 4.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 thead th:nth-child(4) {
   text-align: right;
-  width: 5rem;
+  width: 4.5rem;
 }
 
 thead th:nth-child(5) {
-  text-align: center;
+  text-align: left;
+  padding-left: 4.0rem;
+  padding-right: 1.0rem;
 }
 
 thead th:nth-child(6) {
   text-align: right;
-  width: 2.5rem;
+  width: 2.0rem;
 }
 
 thead th:nth-child(7) {
   text-align: right;
-  width: 2.5rem;
+  width: 2.0rem;
+  padding-left: 0.75rem;
+  padding-right: 1.5rem;
 }
 
 tr {
@@ -84,12 +92,27 @@ tr:last-child {
   border-bottom: initial;
 }
 
+/* tr:nth-child(even) {
+  background-color: hsl(0, 0.0%, 90.0%);
+} */
+
 td, th {
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
+}
+
+tbody td:nth-child(1) {
+  padding-left: 1.5rem;
+  padding-right: 3.0rem;
+}
+
+tbody td:nth-child(2) {
+  word-break: break-all;
 }
 
 tbody td:nth-child(3) {
   text-align: right;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 tbody td:nth-child(4) {
@@ -97,7 +120,8 @@ tbody td:nth-child(4) {
 }
 
 tbody td:nth-child(5) {
-  padding-left: 1rem;
+  padding-left: 4.0rem;
+  padding-right: 1.0rem;
 }
 
 tbody td:nth-child(6) {
@@ -106,4 +130,6 @@ tbody td:nth-child(6) {
 
 tbody td:nth-child(7) {
   text-align: right;
+  padding-left: 0.75rem;
+  padding-right: 1.5rem;
 }
