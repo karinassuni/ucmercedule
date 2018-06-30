@@ -18,20 +18,26 @@ table.course-table {
   text-align: left;
 }
 
-.course-caption__cid {
-  display: block;
+.course-caption__info {
+  float: left;
+}
+
+.course-caption__info__cid {
   font-weight: 400;
   color: hsl(0, 0.0%, 35.0%);
 }
 
-.course-caption__title {
+.course-caption__info__title {
   font-size: 1.2rem;
 }
 
 .course-caption__units {
-  display: block;
   float: right;
   font-size: 0.833rem;
+}
+
+.clearfix {
+  clear: both;
 }
 
 tr {
