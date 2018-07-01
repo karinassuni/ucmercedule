@@ -34,7 +34,7 @@ export default class SectionTable extends Component {
               </thead>
               <tbody>
                 {course.sections.map(section => {
-                  return (
+                  return [
                     <tr key={section.CRN}>
                       <td>{section.section}</td>
                       <td>{section.days}</td>
@@ -43,8 +43,21 @@ export default class SectionTable extends Component {
                       <td>{section.instructor}</td>
                       <td>{section.maxSeats}</td>
                       <td>{section.freeSeats}</td>
-                    </tr>
-                  );
+                    </tr>,
+                    section.supplementary.map(section => {
+                      return (
+                        <tr key={section.CRN}>
+                          <td>{section.section}</td>
+                          <td>{section.days}</td>
+                          <td>{section.startTime}</td>
+                          <td>{section.endTime}</td>
+                          <td>{section.instructor}</td>
+                          <td>{section.maxSeats}</td>
+                          <td>{section.freeSeats}</td>
+                        </tr>
+                      );
+                    })
+                  ];
                 })}
               </tbody>
             </table>
