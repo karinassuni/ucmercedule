@@ -1,8 +1,15 @@
 import { h } from "preact";
 import { hot } from "react-hot-loader";
-import SectionTable from "./SectionTable/SectionTable";
+import CourseTable from "./CourseTable/CourseTable";
 import sampleCourses from "./sample_schedule_courses.json";
 
-const App = () => <SectionTable courses={sampleCourses} />;
+const CourseTables = () => (
+  <div>
+    {sampleCourses.map(course => {
+      const cid = course.departmentCode + " " + course.courseNumber;
+      return <CourseTable course={course} key={cid} />;
+    })}
+  </div>
+);
 
-export default hot(module)(App);
+export default hot(module)(CourseTables);

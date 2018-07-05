@@ -24,6 +24,7 @@ module.exports = {
         use: ["style-loader", "css-loader"]
         // use: [MiniCssExtractPlugin.loader, "css-loader"]
       },
+      // Also performs JSX transformation
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
     ]
   },
